@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+}
+
+:root{
+    --el-color-primary: #FD4E00;
+    --el-menu-item-height: 32px;
+    --el-menu-base-level-padding: 10px;
+    --el-header-padding: 0 0;
+    --el-header-height: 40px !important;
+    --el-checkbox-input-height: 16px !important;
+    --el-checkbox-input-width: 16px !important;
+    --el-checkbox-font-size: 16px !important;
+}
+.el-form-item {
+    margin-bottom: 14px;
+}
+.el-menu{
+    border: none;
+}
+.el-header {
+    height: 40px;
+}
