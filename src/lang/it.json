@@ -1,0 +1,1502 @@
+{
+    "global": {
+        "yes": "Si",
+        "no": "No",
+        "add": "Aggiungi",
+        "cancel": "Annulla",
+        "exit": "Esci",
+        "actions": "Azioni",
+        "confirm": "Conferma",
+        "done": "Fatto",
+        "createElement": "Elemento creato con successo!",
+        "deleteElement": "Elemento eliminato con successo!",
+        "edit": "Modifica",
+        "emptyElement": "Nessun elemento",
+        "error": "Errore",
+        "importantDetail": "Dati principali",
+        "info": "Info",
+        "next": "Successivo",
+        "operationNotPermitted": "Operazione non permessa!",
+        "previous": "Precedente",
+        "save": "Salva",
+        "saveAndNext": "Salva e prosegui",
+        "search": "Cerca",
+        "searchResults": "Risultati ricerca",
+        "serverError": "Ops, qualcosa è andato storto!",
+        "updateElement": "Elemento aggiornato con successo!",
+        "dashboard": "Dashboard",
+        "creation": "Creazione",
+        "detail": "Dettaglio",
+        "delete": "Elimina",
+        "download": "Scarica",
+        "deleteFile": "Elimina file",
+        "block": "Blocca",
+        "unblock": "Sblocca",
+        "addNew": "Aggiungi nuovo",
+        "noAttachments": "Nessun allegato",
+        "emails": "Email",
+        "phoneNumbers": "Numeri di telefono",
+        "select": "Seleziona",
+        "remove": "Rimuovi",
+        "enableEditing": "Abilita modifica",
+        "disableEditing": "Disabilita modifica",
+        "users": "Utenti",
+        "addAnother": "Aggiungi un altro",
+        "filters": "Filtri",
+        "reset": "Reset",
+        "unsavedChangesConfirm": "Hai delle modifiche non salvate. Sei sicuro di voler abbandonare la pagina?",
+        "upload": "Upload",
+        "subscription": "Sottoscrizione",
+        "modules": "Moduli",
+        "additionalInformation": "Informazioni aggiuntive",
+        "allRoles": "Tutti i ruoli",
+        "copyLink": "Copia link",
+        "settings": "Impostazioni",
+        "duplicate": "Duplica",
+        "editLayout": "Modifica layout",
+        "widgetsVisibility": "Mostra/Nascondi widgets",
+        "move": "Sposta",
+        "pause": "Pausa",
+        "play": "Avvia",
+        "setRecurrence": "Imposta ricorrenza",
+        "deleteRecurrence": "Elimina ricorrenza",
+        "editRecurrence": "Modifica ricorrenza",
+        "ordinalNumerals": {
+            "1": "primo",
+            "2": "secondo",
+            "3": "terzo",
+            "4": "quarto",
+            "5": "quinto"
+        },
+        "schedule": "Schedula",
+        "manual": "Manuale",
+        "automatic": "Automatico",
+        "preview": "Anteprima",
+        "refuse": "Rifiuta",
+        "eventScheduledPreview": "Anteprima evento programmato",
+        "rename": "Rinomina",
+        "clona": "Clona",
+        "share": "Condividi",
+        "close": "Close"
+    },
+    "pages": {
+        "404": {
+            "title": "404",
+            "subTitle": "Pagina non trovata",
+            "goBack": "Torna indietro"
+        },
+        "auth": {
+            "login": {
+                "button": "Login",
+                "forgotPassword": "Password dimenticata?",
+                "rememberMe": "Ricordami",
+                "subTitle": "Accedi per proseguire",
+                "title": "È bello vederti di nuovo!",
+                "registerAction": "Non hai un account? Registrati!"
+            },
+            "register": {
+                "button": "Registrazione",
+                "subTitle": "Registrati per continuare",
+                "title": "Registra il tuo account",
+                "loginAction": "Hai già un account? Accedi"
+            }
+        },
+        "deleteModal": {
+            "text": "Attenzione, quest'azione è irreversibile!",
+            "title": "Sei sicuro?"
+        },
+        "settings": {
+            "general": {
+                "languageSubtitle": "Seleziona la lingua preferita per il tuo profilo",
+                "languageTitle": "Lingua",
+                "timezoneTitle": "Fuso orario",
+                "timezoneSubtitle": "Imposta il fuso orario del tuo profilo",
+                "subTitle": "Gestisci le informazioni del tuo account",
+                "tabTitle": "Generale",
+                "title": "Il mio account",
+                "passwordSettingsTitle": "Impostazioni della password",
+                "passwordSettingsSubtitle": "Reimposta la tua password o aggiorna le impostazioni di sicurezza per mantenere il tuo account sicuro",
+                "passwordReset": "Reset password",
+                "passwordResetSubtitle": "Hai dimenticato la password? Nessun problema, puoi reimpostarla facilmente.",
+                "userWithoutEmail": "Nessuna mail trovata, non è possibile procedere al reset. Contatta il tuo amministratore",
+                "mailSent": "Abbiamo inviato una mail al tuo indirizzo di posta, controlla nella posta in arrivo e segui le istruzioni per resettare la password."
+            },
+            "title": "Impostazioni"
+        },
+        "companyProfile": {
+            "title": "Profile azienda",
+            "taskVisibilityNode": {
+                "title": "Visibilità dei task per numero di nodi",
+                "subtitle": "Imposta la visibilità dei task per numero di nodi",
+                "toggleInput": "Visibilità completa",
+                "taskNodeReports": "Numero nodi"
+            }
+        },
+        "sidebar": {
+            "home": "Home",
+            "userManagement": "Gestione utenti"
+        },
+        "dropZone": {
+            "text": "Trascina e rilascia il file qui o Scegli file"
+        },
+        "organizationChart": {
+            "addUser": {
+                "selectExistingUser": "Seleziona l'utente esistente",
+                "createNewUser": "Crea nuovo utente"
+            }
+        },
+        "addressForm": {
+            "hideAddressDetails": "Nascondi i dettagli dell'indirizzo",
+            "showAddressDetails": "Mostra i dettagli dell'indirizzo",
+            "checkTheCorrectnessOfAllValues": "Verificare la correttezza di tutti i valori"
+        },
+        "setRecurrence": {
+            "everyDate": "Il giorno {monthDay} del mese",
+            "everyWeekDay": "Il {position} {weekDay} del mese"
+        },
+        "storeVisits": {
+            "recurrence": {
+                "text": "{recurrenceInterval}, {recurrenceType} a partire da {startDate} {recurrenceEndName}",
+                "endName": {
+                    "date": "fino al {date}",
+                    "occurrence": "per {occurrenceNum} occorrenza/e"
+                },
+                "interval": {
+                    "month": {
+                        "single": "Mensile",
+                        "multiple": "Ogni {num} mesi"
+                    },
+                    "week": {
+                        "single": "Settimanale",
+                        "multiple": "Ogni {num} settimane"
+                    }
+                }
+            }
+        },
+        "learning": {
+            "title": "Learning & Development"
+        },
+        "eventsManager": {
+            "title": "Gestione Eventi"
+        }
+    },
+    "types": {
+        "permissions": {
+            "title": "Permessi",
+            "titleSingular": "Permesso",
+            "fields": {
+                "title": "Titolo",
+                "titleName": {
+                    "dashboard": {
+                        "dashboard_access": "Accesso alla dashboard",
+                        "title": "Dashboard"
+                    },
+                    "role": {
+                        "role_access": "Visualizzazione ruoli",
+                        "role_create": "Creazione ruolo",
+                        "role_delete": "Eliminazione ruolo",
+                        "role_edit": "Modifica ruolo",
+                        "role_show": "Dettaglio ruolo",
+                        "title": "Ruoli"
+                    },
+                    "settings": {
+                        "settings_access": "Accesso alle impostazioni",
+                        "title": "Impostazioni"
+                    },
+                    "user": {
+                        "title": "Utenti",
+                        "user_access": "Visualizzazione utenti",
+                        "user_create": "Creazione utente",
+                        "user_delete": "Eliminazione utente",
+                        "user_edit": "Modifica utente",
+                        "user_show": "Dettaglio utente"
+                    }
+                }
+            }
+        },
+        "roles": {
+            "title": "Ruoli",
+            "titleSingular": "Ruolo",
+            "fields": {
+                "defaultFg": "Default",
+                "title": "Titolo",
+                "titlePlaceholder": "Inserisci titolo",
+                "titleEnum": {
+                    "ADMIN": "Admin",
+                    "ADMIN_GENERAL": "Admin general",
+                    "HUMAN_RESOURCES": "Human resources",
+                    "RETAIL_MANAGER": "Retail manager",
+                    "TOP_MANAGER": "Top manager",
+                    "COUNTRY_MANAGER": "Country manager",
+                    "AREA_MANAGER": "Area manager",
+                    "STORE_MANAGER": "Store manager",
+                    "VICE_STORE_MANAGER": "Vice store manager",
+                    "SALES_ASSISTANT": "Sales assistant",
+                    "VISUAL_MERCHANDISER": "Visual merchandiser",
+                    "USER": "User"
+                }
+            }
+        },
+        "usersManagement": {
+            "title": "Gestione utenti"
+        },
+        "users": {
+            "title": "Utenti",
+            "titleSingular": "Utente",
+            "create": "Creazione utente",
+            "edit": "Modifica utente",
+            "show": "Dettaglio utente",
+            "fields": {
+                "email": "Email",
+                "mobile": "Cellulare",
+                "emailPlaceholder": "Inserisci email",
+                "mobilePlaceholder": "Inserisci cellulare",
+                "username": "Username",
+                "usernamePlaceholder": "Inserisci username",
+                "usernameHelper": "Lo username può contenere solo lettere, numeri e i seguenti caratteri speciali:_ ,",
+                "languageId": "Lingua",
+                "languageIdPlaceholder": "Seleziona lingua",
+                "name": "Nome",
+                "namePlaceholder": "Inserisci nome",
+                "password": "Password",
+                "passwordPlaceholder": "Inserisci la password",
+                "passwordHelper": "La password deve essere di almeno 8 caratteri, contenere almeno una lettera maiuscola, una lettera minuscola e un numero.",
+                "passwordConfirmation": "Conferma password",
+                "passwordConfirmationPlaceholder": "Reinserisci la password",
+                "roleIds": "Ruoli",
+                "roleIdsPlaceholder": "Seleziona ruoli",
+                "roleId": "Ruolo",
+                "roleIdPlaceholder": "Seleziona ruolo",
+                "languageIds": "Lingue parlate",
+                "languageIdsPlaceholder": "Seleziona lingue parlate",
+                "surname": "Cognome",
+                "surnamePlaceholder": "Inserisci cognome",
+                "timezoneId": "Timezone",
+                "timezoneIdPlaceholder": "Seleziona timezone",
+                "status": "Stato",
+                "statusPlaceholder": "Inserisci stato",
+                "statusEnum": {
+                    "ACTIVE": "Attivo",
+                    "BLOCKED": "Bloccato"
+                },
+                "currentPassword": "Password attuale",
+                "newPassword": "Nuova password",
+                "confirmPassword": "Conferma password",
+                "currentPasswordPlaceholder": "Inserisci la password attuale",
+                "newPasswordPlaceholder": "Inserisci la nuova password",
+                "confirmPasswordPlaceholder": "Conferma la nuova password"
+            },
+            "deleteModal": {
+                "title": "Eliminare l'utente?",
+                "text": "Sei sicuro di voler eliminare questo utente? Se procedi, le informazioni dell'utente e i suoi file verranno conservati nel caso in cui sia necessario ripristinarli in seguito."
+            },
+            "removeRoleConfirmation": {
+                "title": "Ruolo utilizzato in uno o più nodi",
+                "text": "Hai rimosso uno o più ruoli utilizzati in alcuni nodi. Sei sicuro di voler procedere con le modifiche? Se procedi, l'utente verrà disassociato dal nodo."
+            },
+            "removeModal": {
+                "title": "Rimuovere questo utente?",
+                "text": "Sei sicuro di voler eliminare questo utente? Se procedi, questo utente verrà rimosso dal nodo."
+            },
+            "blockModal": {
+                "title": "Bloccare l'utente?",
+                "text": "Sei sicuro di voler bloccare questo utente? Se si procede l'utente non potrà più accedere alla piattaforma."
+            },
+            "unblockModal": {
+                "title": "Sbloccare l'utente?",
+                "text": "Sei sicuro di voler sbloccare questo utente? Se si procede, l'utente potrà accedere nuovamente alla piattaforma e riprendere le proprie attività."
+            },
+            "notification": {
+                "create": "Utente creato con successo!",
+                "edit": "Utente modificato con successo!",
+                "delete": "Utente eliminato con successo!",
+                "remove": "Utente rimosso con successo!",
+                "block": "Utente bloccato con successo!",
+                "unblock": "Utente sbloccato con successo!"
+            }
+        },
+        "userGroups": {
+            "title": "Gruppi utenti",
+            "titleSingular": "Gruppo utenti",
+            "create": "Creazione gruppo utenti",
+            "edit": "Modifica gruppo utenti",
+            "show": "Dettaglio gruppo utenti",
+            "fields": {
+                "name": "Nome",
+                "namePlaceholder": "Inserisci nome",
+                "userIds": "Utenti",
+                "userIdsPlaceholder": "Seleziona utenti"
+            },
+            "columns": {
+                "name": "Nome",
+                "totalUsers": "Totale Utenti",
+                "createdAt": "Data di creazione"
+            },
+            "deleteModal": {
+                "title": "Eliminare il gruppo utenti?",
+                "text": "Sei sicuro di voler eliminare questo gruppo utenti? Se procedi, le informazioni del gruppo utenti e i suoi file verranno conservati nel caso in cui sia necessario ripristinarli in seguito."
+            },
+            "notification": {
+                "create": "Gruppo utenti creato con successo!",
+                "edit": "Gruppo utenti modificato con successo!",
+                "delete": "Gruppo utenti eliminato con successo!"
+            }
+        },
+        "customerUsers": {
+            "title": "Utenti",
+            "titleSingular": "Utente",
+            "add": "Aggiungi utente",
+            "create": "Creazione utente",
+            "edit": "Modifica utente",
+            "show": "Dettaglio utente",
+            "fields": {
+                "email": "Email",
+                "mobile": "Mobile",
+                "emailPlaceholder": "Inserisci email",
+                "mobilePlaceholder": "Inserisci cellulare",
+                "username": "Username",
+                "usernamePlaceholder": "Inserisci username",
+                "usernameHelper": "Lo username può contenere solo lettere, numeri e i seguenti caratteri speciali:_ ,",
+                "languageId": "Lingua",
+                "languageIdPlaceholder": "Seleziona lingua",
+                "name": "Nome",
+                "namePlaceholder": "Inserisci nome",
+                "password": "Password",
+                "passwordPlaceholder": "Inserisci la password",
+                "passwordHelper": "La password deve essere di almeno 8 caratteri, contenere almeno una lettera maiuscola, una lettera minuscola e un numero.",
+                "passwordConfirmation": "Conferma password",
+                "passwordConfirmationPlaceholder": "Reinserisci la password",
+                "roleIds": "Ruoli",
+                "roleIdsPlaceholder": "Seleziona ruoli",
+                "languageIds": "Lingue parlate",
+                "languageIdsPlaceholder": "Seleziona lingue parlate",
+                "surname": "Cognome",
+                "surnamePlaceholder": "Inserisci cognome",
+                "timezoneId": "Timezone",
+                "timezoneIdPlaceholder": "Seleziona timezone",
+                "customerId": "Cliente",
+                "customerIdPlaceholder": "Seleziona cliente",
+                "status": "Stato",
+                "statusPlaceholder": "Inserisci stato",
+                "statusEnum": {
+                    "ACTIVE": "Attivo",
+                    "BLOCKED": "Bloccato"
+                }
+            },
+            "actions": {
+                "add": "Aggiungi utente"
+            },
+            "deleteModal": {
+                "title": "Eliminare l'utente?",
+                "text": "Sei sicuro di voler eliminare questo utente? Se procedi, le informazioni dell'utente e i suoi file verranno conservati nel caso in cui sia necessario ripristinarli in seguito."
+            },
+            "blockModal": {
+                "title": "Bloccare l'utente?",
+                "text": "Sei sicuro di voler bloccare questo utente? Se si procede l'utente non potrà più accedere alla piattaforma."
+            },
+            "unblockModal": {
+                "title": "Sbloccare l'utente?",
+                "text": "Sei sicuro di voler sbloccare questo utente? Se si procede, l'utente potrà accedere nuovamente alla piattaforma e riprendere le proprie attività."
+            },
+            "notification": {
+                "add": "Utente aggiunto con successo!",
+                "create": "Utente creato con successo!",
+                "edit": "Utente modificato con successo!",
+                "delete": "Utente eliminato con successo!",
+                "block": "Utente bloccato con successo!",
+                "unblock": "Utente sbloccato con successo!"
+            }
+        },
+        "customers": {
+            "title": "Clienti",
+            "titleSingular": "Cliente",
+            "create": "Creazione cliente",
+            "edit": "Modifica cliente",
+            "show": "Dettaglio cliente",
+            "fields": {
+                "name": "Nome",
+                "namePlaceholder": "Inserisci nome",
+                "vatCode": "Partita IVA",
+                "vatCodePlaceholder": "Inserisci partita IVA",
+                "address": {
+                    "primaryAddress": "Indirizzo",
+                    "primaryAddressPlaceholder": "Inserisci indirizzo",
+                    "zipCode": "Codice postale",
+                    "zipCodePlaceholder": "Inserisci codice postale",
+                    "latitudePlaceholder": "Inserisci latitudine",
+                    "longitudePlaceholder": "Inserisci longitudine",
+                    "province": "Stato / Regione / Provincia",
+                    "provincePlaceholder": "Inserisci stato / regione / provincia",
+                    "city": "Città",
+                    "cityPlaceholder": "Inserisci città",
+                    "countryId": "Nazione",
+                    "countryIdPlaceholder": "Seleziona nazione",
+                    "latitude": "Latitudine",
+                    "longitude": "Longitudine"
+                },
+                "emails": {
+                    "email": "Email",
+                    "emailPlaceholder": "Inserisci email",
+                    "description": "Descrizione email",
+                    "descriptionPlaceholder": "Inserisci descrizione email"
+                },
+                "phoneNumbers": {
+                    "number": "Numero di telefono",
+                    "numberPlaceholder": "Inserisci numero di telefono",
+                    "description": "Descrizione numero telefono",
+                    "descriptionPlaceholder": "Inserisci descrizione numero telefono"
+                },
+                "description": "Descrizione",
+                "descriptionPlaceholder": "Inserisci descrizione",
+                "attachments": "Allegati",
+                "status": "Stato",
+                "statusPlaceholder": "Inserisci stato",
+                "statusEnum": {
+                    "ACTIVE": "Attivo",
+                    "BLOCKED": "Bloccato"
+                },
+                "domain": "Dominio",
+                "domainPlaceholder": "Inserisci dominio",
+                "primaryColor": "Colore primario",
+                "primaryColorPlaceholder": "Inserisci colore primario",
+                "secondaryColor": "Colore secondario",
+                "secondaryColorPlaceholder": "Inserisci colore secondario",
+                "font": "Font",
+                "fontPlaceholder": "Inserisci font",
+                "logo": "Logo",
+                "logoSmall": "Logo piccolo",
+                "learningUrl": "Learning URL",
+                "learningUrlPlaceholder": "Inserisci Learning URL",
+                "eventsUrl": "Events URL",
+                "eventsUrlPlaceholder": "Inserisci Events URL"
+            },
+            "titles": {
+                "general": "Generale",
+                "customization": "Personalizzazione",
+                "integrations": "Integrazioni",
+                "other": "Altro"
+            },
+            "deleteModal": {
+                "title": "Eliminare il cliente?",
+                "text": "Sei sicuro di voler eliminare questo cliente? Se procedi, le informazioni del cliente e i suoi file verranno conservati nel caso in cui sia necessario ripristinarli in seguito."
+            },
+            "blockModal": {
+                "title": "Bloccare il cliente?",
+                "text": "Sei sicuro di voler bloccare questo cliente? Se si procede il cliente non potrà più accedere alla piattaforma."
+            },
+            "unblockModal": {
+                "title": "Sbloccare il cliente?",
+                "text": "Sei sicuro di voler sbloccare questo cliente? Se si procede, il cliente potrà accedere nuovamente alla piattaforma e riprendere le proprie attività."
+            },
+            "deleteMediaModal": {
+                "title": "Eliminare il file?",
+                "text": "Sei sicuro di voler eliminare questo file? Se procedi, il file andrà perso definitivamente e non potrà essere recuperato."
+            },
+            "notification": {
+                "create": "Cliente creato con successo!",
+                "edit": "Cliente modificato con successo!",
+                "delete": "Cliente eliminato con successo!",
+                "block": "Cliente bloccato con successo!",
+                "unblock": "Cliente sbloccato con successo!",
+                "deleteFile": "File eliminato con successo!"
+            }
+        },
+        "stores": {
+            "title": "Store",
+            "titleSingular": "Store",
+            "add": "Aggiungi store",
+            "create": "Creazione store",
+            "edit": "Modifica store",
+            "show": "Dettaglio store",
+            "fields": {
+                "name": "Nome",
+                "namePlaceholder": "Inserisci nome",
+                "code": "Codice",
+                "codePlaceholder": "Inserisci codice",
+                "customerId": "Cliente",
+                "customerIdPlaceholder": "Seleziona cliente",
+                "userId": "Utente",
+                "userIdPlaceholder": "Seleziona utente",
+                "roleId": "Ruolo",
+                "roleIdPlaceholder": "Seleziona ruolo",
+                "address": {
+                    "primaryAddress": "Indirizzo",
+                    "primaryAddressPlaceholder": "Inserisci indirizzo",
+                    "zipCode": "Codice postale",
+                    "zipCodePlaceholder": "Inserisci codice postale",
+                    "province": "Stato / Regione / Provincia",
+                    "provincePlaceholder": "Inserisci stato / regione / provincia",
+                    "city": "Città",
+                    "cityPlaceholder": "Inserisci città",
+                    "countryId": "Nazione",
+                    "countryIdPlaceholder": "Seleziona nazione",
+                    "latitude": "Latitudine",
+                    "longitude": "Longitudine"
+                },
+                "emails": {
+                    "email": "Email",
+                    "emailPlaceholder": "Inserisci email",
+                    "description": "Descrizione email",
+                    "descriptionPlaceholder": "Inserisci descrizione email"
+                },
+                "phoneNumbers": {
+                    "number": "Numero di telefono",
+                    "numberPlaceholder": "Inserisci numero di telefono",
+                    "description": "Descrizione numero telefono",
+                    "descriptionPlaceholder": "Inserisci descrizione numero telefono"
+                },
+                "description": "Descrizione",
+                "descriptionPlaceholder": "Inserisci descrizione",
+                "attachments": "Allegati"
+            },
+            "actions": {
+                "add": "Aggiungi store"
+            },
+            "deleteModal": {
+                "title": "Eliminare lo store?",
+                "text": "Sei sicuro di voler eliminare questo store? Se procedi, le informazioni dello store e i suoi file verranno conservati nel caso in cui sia necessario ripristinarli in seguito."
+            },
+            "deleteMediaModal": {
+                "title": "Eliminare il file?",
+                "text": "Sei sicuro di voler eliminare questo file? Se procedi, il file andrà perso definitivamente e non potrà essere recuperato."
+            },
+            "removeModal": {
+                "title": "Rimuovere questo negozio?",
+                "text": "Sei sicuro di voler eliminare questo store? Se procedi, questo store verrà rimosso dal nodo."
+            },
+            "notification": {
+                "add": "Store aggiunto con successo!",
+                "create": "Store creato con successo!",
+                "edit": "Store modificato con successo!",
+                "remove": "Store rimosso con successo!",
+                "delete": "Store eliminato con successo!",
+                "deleteFile": "File eliminato con successo!",
+                "removeUser": "Utente rimosso con successo!"
+            }
+        },
+        "clusters": {
+            "title": "Cluster",
+            "titleSingular": "Cluster",
+            "create": "Creazione cluster",
+            "edit": "Modifica cluster",
+            "show": "Dettaglio cluster",
+            "fields": {
+                "name": "Nome",
+                "namePlaceholder": "Inserisci name",
+                "customerId": "Cliente",
+                "customerIdPlaceholder": "Seleziona cliente",
+                "storeIds": "Store",
+                "storeIdsPlaceholder": "Seleziona store"
+            },
+            "deleteModal": {
+                "title": "Eliminare il cluster?",
+                "text": "Sei sicuro di voler eliminare questo cluster? Se procedi, le informazioni del il cluster e i suoi file verranno conservati nel caso in cui sia necessario ripristinarli in seguito."
+            },
+            "notification": {
+                "create": "Cluster creato con successo!",
+                "edit": "Cluster modificato con successo!",
+                "delete": "Cluster eliminato con successo!"
+            }
+        },
+        "svisTemplates": {
+            "title": "Templates",
+            "titleSingular": "Template",
+            "create": "Nuovo Template",
+            "empty": "Non sono disponbili template",
+            "info": "Info template",
+            "wizard": {
+                "general": "Generali",
+                "questions": "Domande",
+                "supportMaterial": "Materiale di supporto",
+                "publish": "Pubblica",
+                "create": {
+                    "title": "Crea Template",
+                    "saveDraft": "Salva come bozza",
+                    "updateDraft": "Aggiorna bozza"
+                },
+                "edit": {
+                    "title": "Modifica Template"
+                },
+                "show": {
+                    "title": "Template"
+                }
+            },
+            "fields": {
+                "validity": "Validità",
+                "validityPlaceholder": "mm/dd/YY",
+                "image": "Immagine",
+                "languageId": "Lingua",
+                "languageIdPlaceholder": "Inserisci lingua",
+                "validFromTs": "Valido da",
+                "validFromTsPlaceholder": "Valido da",
+                "validToTs": "Valido a",
+                "weather": "Condizioni meteo",
+                "validToTsPlaceholder": "Valido a",
+                "assignationType": "Assegnatario",
+                "assignationTypePlaceholder": "Seleziona assegnatario",
+                "status": "Stato",
+                "statusPlaceholder": "Seleziona stato",
+                "title": "Titolo",
+                "tags": "Tags",
+                "titlePlaceholder": "Inserisci titolo",
+                "attachments": "Allegati",
+                "attachmentsPlaceholder": "Trascina e rilascia il file o la cartella qui o Scegli file",
+                "instructions": "Istruzioni",
+                "instructionsPlaceholder": "Inserisci istruzioni",
+                "description": "Descrizione",
+                "descriptionPlaceholder": "Inserisci descrizione",
+                "clusters": "Clusters",
+                "clustersPlaceholder": "Seleziona Clusters",
+                "users": "Utenti",
+                "usersPlaceholder": "Seleziona Utenti",
+                "enabledRoles": "Ruoli abilitati",
+                "enabledRolesPlaceholder": "Tutti i ruoli",
+                "statusEnum": {
+                    "PUBLISHED": "Published",
+                    "DRAFT": "Draft",
+                    "EXPIRED": "Expired"
+                },
+                "assignationTypeEnum": {
+                    "FREE": "Free",
+                    "CLUSTER": "Cluster",
+                    "USERS": "Utenti"
+                }
+            },
+            "questionCategories": {
+                "add": "Aggiungi categoria",
+                "categoriesWeight": "Peso categorie",
+                "empty": "Al momento non ci sono domande in questo modello. <br>Per iniziare, aggiungi una categoria.",
+                "fields": {
+                    "title": "Titolo",
+                    "titlePlaceholder": "Inserisci nome categoria",
+                    "weight": "Peso",
+                    "weightPlaceholder": "Inserisci peso"
+                }
+            },
+            "questions": {
+                "add": "Aggiungi domande",
+                "noWeight": "La tipologia di domanda selezionata non ha un peso",
+                "empty": "Al momento non ci sono domande in questa categoria. <br>Per iniziare, aggiungi una domanda.",
+                "addOptions": "Aggiungi opzioni",
+                "deleteModal": {
+                    "title": "Eliminare questa domanda?",
+                    "text": "Sei sicuro di voler eliminare questa domanda? Se procedi, verranno eliminati anche tutti i relativi figli."
+                },
+                "fields": {
+                    "text": "Domanda",
+                    "textPlaceholder": "Inserisci qua la domanda",
+                    "weightPlaceholder": "Inserisci il  peso",
+                    "type": "Tipo di risposta",
+                    "weight": "Peso",
+                    "required": "Obbligatoria",
+                    "commentRequired": "Commento",
+                    "photoRequired": "Foto richiesta",
+                    "attachments": "Allegati",
+                    "questionTypeEnum": {
+                        "OPEN": "Aperto",
+                        "RATING": "Valutazione (1 - 10)",
+                        "YESNO": "Sì/No",
+                        "SELECT_SINGLE": "Seleziona singolo",
+                        "SELECT_MULTIPLE": "Seleziona multipli",
+                        "PHOTO": "Foto"
+                    },
+                    "options": {
+                        "text": "Opzione",
+                        "weight": "Peso"
+                    }
+                }
+            },
+            "deleteModal": {
+                "title": "Eliminare questo template?",
+                "text": "Sei sicuro di voler eliminare questo template? Se procedi, verranno eliminati anche tutti i relativi figli."
+            },
+            "duplicateModal": {
+                "title": "Duplicare questo template?",
+                "text": "Sei sicuro di voler duplicare questo template? Se procedi, verranno duplicati anche tutti i relativi figli."
+            },
+            "notification": {
+                "create": "Template creato con successo!",
+                "edit": "Template modificato con successo!",
+                "delete": "Template eliminato con successo!",
+                "duplicate": "Template duplicato con successo!"
+            }
+        },
+        "weathers": {
+            "fields": {
+                "sunny": "Soleggiato",
+                "partly_cloudy": "Parzialmente Nuvoloso",
+                "cloudy": "Nuvoloso",
+                "rain": "Pioggia",
+                "storm": "Tempesta",
+                "fog": "Nebbia",
+                "snow": "Neve",
+                "wind": "Vento"
+            }
+        },
+        "languages": {
+            "title": "Lingue",
+            "titleSingular": "Lingua",
+            "fields": {
+                "nameEnum": {
+                    "afrikaans": "Afrikaans",
+                    "albanian": "Albanese",
+                    "amharic": "Amharico",
+                    "arabic": "Arabo",
+                    "armenian": "Armeno",
+                    "basque": "Basco",
+                    "bengali": "Bengalese",
+                    "belarusian": "Bielorusso",
+                    "burmese": "Birmano",
+                    "bulgarian": "Bulgaro",
+                    "catalan": "Catalano",
+                    "czech": "Ceco",
+                    "chinese": "Cinese",
+                    "croatian": "Croato",
+                    "kurdish": "Curdo",
+                    "danish": "Danese",
+                    "dari": "Dari",
+                    "dzongkha": "Dzongkha",
+                    "hebrew": "Ebraico",
+                    "esperanto": "Esperanto",
+                    "estonian": "Estone",
+                    "faroese": "Faroese",
+                    "persian": "Farsi",
+                    "finnish": "Finlandese",
+                    "french": "Francese",
+                    "gaelic": "Gaelico",
+                    "galician": "Gallego",
+                    "welsh": "Gallese",
+                    "japanese": "Giapponese",
+                    "greek": "Greco",
+                    "hindi": "Hindi",
+                    "indonesian": "Indonesiano",
+                    "english": "Inglese",
+                    "inuit": "Inuit",
+                    "icelandic": "Islandese",
+                    "italian": "Italiano",
+                    "khmer": "Khmer",
+                    "korean": "Koreano",
+                    "lao": "Laotiano",
+                    "sami": "Lappone",
+                    "latvian": "Lettone",
+                    "lithuanian": "Lituano",
+                    "macedonian": "Macedone",
+                    "malay": "Malay",
+                    "maltese": "Maltese",
+                    "nepali": "Nepalese",
+                    "norwegian": "Norvegese",
+                    "dutch": "Olandese",
+                    "pashto": "Pashtu",
+                    "polish": "Polacco",
+                    "portuguese": "Portoghese",
+                    "romanian": "Rumeno",
+                    "russian": "Russo",
+                    "serbian": "Serbo",
+                    "slovak": "Slovacco",
+                    "slovenian": "Sloveno",
+                    "somali": "Somalo",
+                    "spanish": "Spagnolo",
+                    "swedish": "Svedese",
+                    "swahili": "Swahili",
+                    "tagalog_filipino": "Tagalog-Filipino",
+                    "tajik": "Tagiko",
+                    "tamil": "Tamil",
+                    "german": "Tedesco",
+                    "thai": "Thai",
+                    "tibetan": "Tibetano",
+                    "tigrinya": "Tigrinya",
+                    "tongan": "Tongan",
+                    "turkish": "Turco",
+                    "turkmen": "Turkmeno",
+                    "ukrainian": "Ucraino",
+                    "hungarian": "Ungherese",
+                    "urdu": "Urdu",
+                    "uzbek": "Uzbeco",
+                    "vietnamese": "Vietnamita"
+                }
+            }
+        },
+        "organizationCharts": {
+            "title": "Organigramma",
+            "titleSingular": "Organigramma"
+        },
+        "orgNodes": {
+            "title": "Nodi",
+            "titleSingular": "Nodo",
+            "create": "Creazione nodo",
+            "edit": "Modifica nodo",
+            "fields": {
+                "name": "Nome",
+                "namePlaceholder": "Inserisci name",
+                "storeId": "Store",
+                "storeIdPlaceholder": "Seleziona store",
+                "storeIdHelper": "Vengono visualizzati solamente gli store non associati a nessun nodo dell'organigramma.",
+                "userId": "Utente",
+                "userIdPlaceholder": "Seleziona utente",
+                "roleId": "Ruolo",
+                "roleIdPlaceholder": "Seleziona ruolo"
+            },
+            "actions": {
+                "add": "Aggiungi nodo",
+                "edit": "Modifica nodo"
+            },
+            "deleteModal": {
+                "title": "Eliminare questo nodo?",
+                "text": "Sei sicuro di voler eliminare questo nodo? Se procedi, verranno eliminati anche tutti i relativi figli."
+            },
+            "notification": {
+                "create": "Nodo creato con successo!",
+                "edit": "Nodo modificato con successo!",
+                "delete": "Nodo eliminato con successo!"
+            }
+        },
+        "addresses": {
+            "title": "Indirizzi",
+            "titleSingular": "Indirizzo",
+            "fields": {
+                "addressSearch": "Cerca indirizzo",
+                "addressSearchPlaceholder": "Inserisci indirizzo",
+                "addressSearchHelper": "Inserire l'indirizzo completo con via, città, cap e nazione per un risultato accurato",
+                "countryId": "Nazione",
+                "countryIdPlaceholder": "Seleziona nazione",
+                "province": "Stato / Regione / Provincia",
+                "provincePlaceholder": "Inserisci stato / regione / provincia",
+                "city": "Città",
+                "cityPlaceholder": "Inserisci città",
+                "zipCode": "Codice postale",
+                "zipCodePlaceholder": "Inserisci codice postale",
+                "latitude": "Latitudine",
+                "latitudePlaceholder": "Inserisci latitudine",
+                "longitude": "Longitudine",
+                "longitudePlaceholder": "Inserisci longitudine",
+                "primaryAddress": "Indirizzo",
+                "primaryAddressPlaceholder": "Inserisci indirizzo"
+            }
+        },
+        "dashboard": {
+            "date": "Data",
+            "area": "Area",
+            "stores": "Negozi",
+            "currency": "Valuta",
+            "totalSales": "Vendite totali",
+            "target": "Target",
+            "questaSettimana": "questa settimana",
+            "tassoConversione": "Tasso di conversione",
+            "transazioneMedia": "Transazione media",
+            "unitaPerTransazione": "Unità per transazione",
+            "quantita": "Quantità:",
+            "giorniLavorati": "Giorni lavorati:",
+            "mediaVenditeGiornaliere": "Media vendite giornaliere:",
+            "venditeDigitali": "Vendite digitali:",
+            "numeroTicket": "Nr. tickets:",
+            "esenteTasse": "Esente tasse:",
+            "tassoDiAdesione": "Tasso di adesione",
+            "iscrizioni": "Subscription",
+            "tassoIscrizioni": "Subscription rate",
+            "soloPerNegozio": "solo per negozio",
+            "soloPerStaff": "solo per staff",
+            "venditeTotaliAnnoCorrente": "Vendite totali anno corrente",
+            "venditeTotaliAnnoPrecedente": "Vendite totali anno precedente",
+            "venditeAnnoCorrenteVsAnnoPrecedente": "Vendite totali anno corrente vs anno precedente",
+            "venditeMesiRecenti": "Vendite nei mesi recenti",
+            "targetSales": "Vendite obiettivo"
+        },
+        "boards": {
+            "missing": "Nessuna board trovata",
+            "edit": "Modifica Board",
+            "addColumn": "Aggiungi Colonna",
+            "noStatus": "Nessuno Stato",
+            "notification": {
+                "create": "Board creata con successo!",
+                "edit": "Board modificata con successo!",
+                "delete": "Board eliminata con successo!"
+            },
+            "fields": {
+                "columnTitle": "Titolo Colonna",
+                "columnStatus": "Stato Colonna",
+                "columnStatusPlaceholder": "Seleziona stato colonna",
+                "columnEnum": {
+                    "COMPLETED": "Completato",
+                    "TODO": "Da fare",
+                    "PROGRESS": "In corso"
+                }
+            }
+        },
+        "tasks": {
+            "title": "Task Management",
+            "titleSingular": "Task Management",
+            "createNew": "Crea Nuova Task",
+            "addNew": "Aggiungi Task",
+            "show": "Dettagli Task",
+            "edit": "Modifica Task",
+            "addSubTask": "Aggiungi Sotto Task",
+            "resolveConflict": "La descrizione dell'attività non verrà salvata finché non risolvi il conflitto, controlla la tua versione di seguito e correggi la descrizione. Al termine, rimuovi semplicemente la scritta ===CONFLICT=== e il conflitto verrà contrassegnato come risolto",
+            "cloneTask": "Clona Task",
+            "priorityEnum": {
+                "HIGHEST": "Più alta",
+                "HIGH": "Alta",
+                "NORMAL": "Normale",
+                "LOW": "Bassa",
+                "LOWEST": "Più bassa"
+            },
+            "missing": "Nessun task trovato",
+            "fields": {
+                "titlePlaceholder": "Inserisci titolo della task",
+                "subTaskTitlePlaceholder": "Inserisci titolo della sotto task",
+                "name": "Nome della task",
+                "subTaskName": "Nome della sotto task",
+                "namePlaceholder": "Inserisci nome della task",
+                "subTaskNamePlaceholder": "Inserisci nome della sotto task",
+                "assignee": "Assegna a",
+                "assigneePlaceholder": "Seleziona assegnatario",
+                "createdBy": "Creato da",
+                "startDate": "Data e Orario di inizio",
+                "startDatePlaceholder": "mm/dd/yyyy - hh:mm",
+                "endDate": "Data e Orario di fine",
+                "endDatePlaceholder": "mm/dd/yyyy - hh:mm",
+                "priority": "Priorità",
+                "priorityPlaceholder": "Seleziona priorità",
+                "tags": "Tags",
+                "tagsPlaceholder": "Inserisci tags",
+                "description": "Descrizione",
+                "column": "Colonna",
+                "subTaskColumn": "Stato",
+                "columnPlaceholder": "Seleziona colonna",
+                "subTaskColumnPlaceholder": "Seleziona lo stato",
+                "attachments": "Allegati",
+                "estimateTime": "Stima",
+                "estimateTimePlaceholder": "Es. 1d 2h 30m",
+                "estimateTimeError": "Formato non valido. Usa es. 5d 10h 30m"
+            },
+            "columns": {
+                "task": "Task",
+                "store": "Store",
+                "status": "Stato",
+                "priority": "Priorità"
+            },
+            "subTasks": {
+                "title": "Sotto Tasks",
+                "createNew": "Crea Sotto Task",
+                "show": "Dettagli Sotto Task",
+                "edit": "Modifica Sotto task",
+                "noSubTasks": "Nessuna sotto task da mostrare",
+                "notification": {
+                    "create": "Sotto task creata con successo!",
+                    "edit": "Sotto task modificata con successo!",
+                    "delete": "Sotto task eliminata con successo!"
+                },
+                "deleteModal": {
+                    "title": "Eliminare la sotto task?",
+                    "text": "Sei sicuro di voler eliminare questa sotto task? Se procedi, le informazioni della sotto task e i suoi file verranno conservati nel caso in cui sia necessario ripristinarli in seguito."
+                }
+            },
+            "comments": {
+                "title": "Commenti",
+                "reply": "Rispondi",
+                "placeholder": "Scrivi il tuo commento qui",
+                "notification": {
+                    "create": "Commento creato con successo!",
+                    "delete": "Commento eliminato con successo!"
+                }
+            },
+            "versions": {
+                "history": "Cronologia",
+                "modal": {
+                    "title": "Lista delle versioni",
+                    "text": "Puoi visualizzare tutte le versioni della task e ripristinare una versione precedente se necessario.",
+                    "apply": "Applica Versione"
+                }
+            },
+            "activities": {
+                "noActivities": "Nessuna attività da mostrare",
+                "translations": {
+                    "create_tag": " ha aggiunto il tag: ",
+                    "remove_tag": " ha eliminato il tag: ",
+                    "edit_column": " ha cambiato lo stato del task in: ",
+                    "create_media": " ha aggiunto un nuovo allegato: ",
+                    "remove_media": " ha eliminato l\"allegato: ",
+                    "create_time": " ha aggiunto una stima:",
+                    "update_time": " ha aggiornato la stima:",
+                    "remove_time": " ha rimosso la stima"
+                }
+            },
+            "widgets": {
+                "tasks": "Tasks",
+                "expiredTasks": "Task Scadute",
+                "delayedTasks": "Task in Ritardo",
+                "tasksByPerson": "Task per Persona",
+                "completedTasks": "Task Completate",
+                "totalTasks": "Totale Task",
+                "assignedTasks": "Task Assegnate",
+                "tasksByStatus": "Task per Stato",
+                "tasksByStore": "Task per Store",
+                "notification": {
+                    "edit": "Layout modificato con successo!",
+                    "widgetsVisibility": "Visibilità dei widget modificata con successo!"
+                },
+                "fields": {
+                    "date": "Data",
+                    "datePlaceholder": "Inserisci una Data/Range",
+                    "taskStatus": "Stato/i Task",
+                    "taskStatusPlaceholder": "Seleziona uno stato",
+                    "taskStore": "Store(s)",
+                    "taskStorePlaceholder": "Seleziona uno o più store",
+                    "users": "Utenti",
+                    "usersPlaceholder": "Seleziona Utenti"
+                }
+            },
+            "widgetsEnum": {
+                "TOTAL_TASKS": "Totale Task",
+                "COMPLETED_TASKS": "Task Completate",
+                "ASSIGNED_TASKS": "Task Assegnate",
+                "EXPIRED_TASKS": "Task Scadute",
+                "TOTAL_EXPIRED_TASKS": "Totale Task Scadute",
+                "DELAYED_TASKS": "Task in Ritardo",
+                "TASK_BY_STORE": "Task per Store",
+                "TASK_BY_STATUS": "Task per Stato",
+                "TASK_BY_PERSON": "Task per Persona",
+                "TASKS_LIST": "Lista Task"
+            },
+            "notification": {
+                "create": "Task creata con successo!",
+                "edit": "Task modificata con successo!",
+                "delete": "Task eliminata con successo!",
+                "deleteFile": "File eliminato con successo!",
+                "linkCopied": "Link copiato negli appunti!",
+                "clone": "Task clonata con successo!"
+            },
+            "deleteModal": {
+                "title": "Eliminare la task?",
+                "text": "Sei sicuro di voler eliminare questa task? Se procedi, le informazioni della task e i suoi file verranno conservati nel caso in cui sia necessario ripristinarli in seguito."
+            },
+            "conflitModal": {
+                "title": "Conflitto Rilevato",
+                "text": "Non è possibile salvare il task in quanto esiste una versione più recente. <br /> Clicca <strong>Gestisci Conflitto</strong> per avere l'ultima versione disponibile con sotto le tue ultime modifiche riportate oppure clicca <strong>Sovrascrivi con le tue modifiche</strong> per sovrascrivere la versione attuale con le tue modifiche.",
+                "handleConflit": "Gestisci Conflitto",
+                "overwrite": "Sovrascrivi con le tue modifiche"
+            }
+        },
+        "orders": {
+            "title": "Ordini",
+            "titleSingular": "Ordine",
+            "create": "Creazione ordine",
+            "edit": "Modifica ordine",
+            "show": "Dettaglio ordine",
+            "fields": {
+                "subscriptionStartDate": "Data di inizio",
+                "subscriptionStartDatePlaceholder": "Inserisci data di inizio",
+                "subscriptionEndDate": "Data di fine",
+                "subscriptionEndDatePlaceholder": "Inserisci data di fine",
+                "status": "Stato",
+                "statusPlaceholder": "Inserisci stato",
+                "statusEnum": {
+                    "NEW": "Nuovo",
+                    "ACTIVE": "Attivo",
+                    "CANCELED": "Cancellato",
+                    "EXPIRED": "Scaduto"
+                },
+                "type": "Tipologia",
+                "typePlaceholder": "Inserisci tipologia",
+                "typeEnum": {
+                    "NEW": "Sottoscrizione",
+                    "INTEGRATION": "Integrazione"
+                },
+                "description": "Descrizione",
+                "descriptionPlaceholder": "Inserisci descrizione",
+                "attachments": "Allegati",
+                "itemType": "Tipologia pagamento",
+                "itemTypePlaceholder": "Seleziona tipologia pagamento",
+                "itemTypeEnum": {
+                    "SINGLE": "Singolo",
+                    "USERS": "Numero utenti",
+                    "STORES": "Numero store"
+                },
+                "userNumber": "Numero utenti",
+                "userNumberPlaceholder": "Inserisci numero utenti",
+                "storeNumber": "Numero store",
+                "storeNumberPlaceholder": "Inserisci numero store",
+                "price": "Prezzo",
+                "pricePlaceholder": "Inserisci prezzo",
+                "moduleOrders": {
+                    "roleIds": "Ruoli",
+                    "roleIdsPlaceholder": "Tutti i ruoli"
+                },
+                "additionalServices": {
+                    "options": "Opzioni",
+                    "optionsPlaceholder": "Scegli"
+                }
+            },
+            "notification": {
+                "add": "Ordine aggiunto con successo!",
+                "create": "Ordine creato con successo!",
+                "edit": "Ordine modificato con successo!",
+                "remove": "Ordine rimosso con successo!",
+                "delete": "Ordine eliminato con successo!",
+                "deleteFile": "File eliminato con successo!"
+            },
+            "cancelModal": {
+                "title": "Cancellare quest'ordine?",
+                "text": "Sei sicuro di voler cancellare quest'ordine? Se si procede, il cliente non potrà più accedere ai moduli indicati in quest'ordine, inoltre se non ci sono altri ordini attivi il cliente non potrà accedere alla piattaforma."
+            },
+            "deleteMediaModal": {
+                "title": "Eliminare il file?",
+                "text": "Sei sicuro di voler eliminare questo file? Se procedi, il file andrà perso definitivamente e non potrà essere recuperato."
+            }
+        },
+        "modules": {
+            "title": "Moduli",
+            "titleSingular": "Modulo",
+            "fields": {
+                "name": "Nome",
+                "nameEnum": {
+                    "TASK_MANAGEMENT": "Task management",
+                    "STORE_VISIT": "Store visit",
+                    "DOC_MANAGEMENT": "Doc management"
+                }
+            },
+            "additionalServices": {
+                "title": "Servizi addizionali",
+                "nameEnum": {
+                    "TRANSLATE": "Traduzioni"
+                },
+                "options": {
+                    "nameEnum": {
+                        "AWS_TRANSLATE": "AWS Translate",
+                        "CLAUDE_3_SONNET": "Claude 3 Sonnet"
+                    }
+                }
+            }
+        },
+        "customerSettings": {
+            "title": "Impostazioni aziende",
+            "titleSingular": "Impostazioni azienda",
+            "fields": {
+                "taskNodeReports": "Numero nodi"
+            },
+            "notification": {
+                "edit": "Impostazioni azienda modificate con successo!"
+            }
+        },
+        "storeVisits": {
+            "title": "Store visit",
+            "titleEnded": "Store visit completata",
+            "executionDetails": "Dettagli esecuzione",
+            "titleSingular": "Store visit",
+            "manualCreate": "Schedulazione manuale",
+            "automaticCreate": "Schedulazione automatica",
+            "edit": "Modifica store visit",
+            "show": "Dettaglio store visit",
+            "start": "Inizia visita",
+            "resume": "Riprendivisita",
+            "end": "Termina visita",
+            "endConfirm": "Conferma se desideri terminare la tua visita attuale al negozio.",
+            "exp": "Scad.",
+            "score": "Punteggio",
+            "svisScore": "Punteggio store visit",
+            "category": "Categoria",
+            "selectTemplate": "Seleziona template",
+            "pausedTimerBanner": "Non puoi rispondere alle domande mentre il timer è in pausa, avvialo per continuare la compilazione",
+            "fields": {
+                "commentRequired": "Commento",
+                "executionTime": "Tempo di esecuzione",
+                "photoRequired": "Foto richiesta",
+                "startDatetime": "Data e ora di inizio",
+                "startDatetimePlaceholder": "Inserisci data e ora",
+                "endDatetime": "Data e ora di fine",
+                "duration": "Durata",
+                "durationPlaceholder": "Inserisci durata",
+                "storeId": "Store",
+                "storeIdPlaceholder": "Seleziona store",
+                "userId": "Utente",
+                "userIdPlaceholder": "Seleziona utente",
+                "createdUserId": "Creato da utente",
+                "inviteUserIds": "Invita altri utente/i",
+                "inviteUserIdsPlaceholder": "Seleziona utenti",
+                "invitedUserIds": "Utente/i invitato/i",
+                "inviteUserEmails": "Invita altri utente/i tramite email",
+                "inviteUserEmailsPlaceholder": "Inserisci email",
+                "invitedUserEmails": "Utente/i invitato/i tramite email",
+                "recurrenceName": "Ricorrenza",
+                "recurrence": {
+                    "type": "Tipo ricorrenza",
+                    "typePlaceholder": "Seleziona tipo ricorrenza",
+                    "typeEnum": {
+                        "WEEKLY": "Settimanale",
+                        "MONTHLY": "Mensile"
+                    },
+                    "deleteTypeEnum": {
+                        "SINGLE": "Eliminare solo questa store visit",
+                        "NEXT": "Eliminare solo questa store visit e quelle successive"
+                    },
+                    "recurrenceInterval": "Intervallo di ripetizione",
+                    "recurrenceIntervalPlaceholder": "Inserisci intervallo di ripetizione",
+                    "repeatType": "Tipologia ripetizione",
+                    "repeatTypePlaceholder": "Seleziona tipologia ripetizione",
+                    "weekDays": "Ripeti",
+                    "weekDaysPlaceholder": "Seleziona i giorni della settimana",
+                    "weekDaysEnum": {
+                        "MONDAY": "Lunedì",
+                        "TUESDAY": "Martedì",
+                        "WEDNESDAY": "Mercoledì",
+                        "THURSDAY": "Giovedì",
+                        "FRIDAY": "Venerdì",
+                        "SATURDAY": "Sabato",
+                        "SUNDAY": "Domenica"
+                    },
+                    "ends": "Fine",
+                    "endDatetime": "Dopo data",
+                    "endDatetimePlaceholder": "Inserisci data",
+                    "endOccurrencesNumber": "Dopo numero occorrenza",
+                    "endOccurrencesNumberPlaceholder": "Inserisci numero occorrenza"
+                }
+            },
+            "widgets": {
+                "totalStoreVisitsPerformed": "Totale store visit effettuate",
+                "averageScore": "Punteggio medio",
+                "storeVisitsProgress": "Store visit in corso",
+                "lastVisitScore": "Punteggio delle ultima store visit",
+                "trendOverTime": "Andamento nel tempo",
+                "stages": "Tappe",
+                "ongoingStoreVisits": "Store visit in corso",
+                "historyStoreVisits": "Store store visit",
+                "latestCompletedStoreVisits": "Ultime store visit completate",
+                "todayStoreVisits": "Store visits di oggi"
+            },
+            "deleteModal": {
+                "title": "Eliminare la store visit?",
+                "text": "Sei sicuro di voler eliminare questa store visit? Se procedi, le informazioni del store e i loro file saranno conservati nel caso in cui sia necessario ripristinarli in seguito."
+            },
+            "deleteWithRecurrenceModal": {
+                "title": "Eliminare la store visit?",
+                "text": "Sei sicuro di voler eliminare questa store visit? Se procedi, le informazioni del store verranno eliminate. Questo store appartiene a una ricorrenza, selezionare la tipologia di eliminazione:"
+            },
+            "notification": {
+                "create": "Store visit creata con successo!",
+                "edit": "Store visit modificata con successo!",
+                "delete": "Store visit eliminata con successo!",
+                "end": "Store visit terminata con successo!",
+                "validationFail": "Controlla di aver compilato correttamente le risposte!"
+            },
+            "report": {
+                "downloadPdf": "Scarica report in PDF",
+                "generateReport": "Genera report"
+            }
+        },
+        "widgets": {
+            "notification": {
+                "edit": "Layout modificato con successo!",
+                "widgetsVisibility": "Visibilità dei widget modificata con successo!"
+            },
+            "fields": {
+                "nameEnum": {
+                    "tasks": {
+                        "TOTAL_TASKS": "Totale Task",
+                        "COMPLETED_TASKS": "Task Completate",
+                        "ASSIGNED_TASKS": "Task Assegnate",
+                        "EXPIRED_TASKS": "Task Scadute",
+                        "TOTAL_EXPIRED_TASKS": "Totale Task Scadute",
+                        "DELAYED_TASKS": "Task in Ritardo",
+                        "TASK_BY_STORE": "Task per Store",
+                        "TASK_BY_STATUS": "Task per Stato",
+                        "TASK_BY_PERSON": "Task per Persona",
+                        "TASKS_LIST": "Lista Task"
+                    },
+                    "storeVisits": {
+                        "TOTAL_STORE_VISIT_PERFORMED": "Totale store visit effettuate  ",
+                        "AVERAGE_SCORE": "Punteggio medio",
+                        "STORE_VISITS_PROGRESS": "Store visit in corso",
+                        "LAST_VISIT_SCORE": "Punteggio dell'ultima store visit",
+                        "TREND_OVER_TIME": "Andamento nel tempo",
+                        "STORE_VISIT_CALENDAR": "Calendario",
+                        "STORE_VISIT_MAP": "Mappa dei punti",
+                        "STORE_VISIT_STAGES": "Percorso store visit",
+                        "ONGOING_STORE_VISITS": "Store visit in corso",
+                        "LATEST_COMPLETED_STORE_VISITS": "Ultime store visit completata",
+                        "STORE_VISITS_HISTORY": "Storico delle store visit",
+                        "STORE_VISITS_TODAY": "Store visits di oggi"
+                    }
+                }
+            }
+        },
+        "recurrences": {
+            "title": "Ricorrenze",
+            "titleSingular": "Ricorrenza",
+            "fields": {
+                "storeIds": "Store",
+                "storeIdsPlaceholder": "Tutti i store",
+                "startDatetime": "Data di inizio",
+                "startDatetimePlaceholder": "Inserisci data",
+                "duration": "Durata",
+                "durationPlaceholder": "Inserisci durata",
+                "userId": "Utente",
+                "userIdPlaceholder": "Seleziona utente",
+                "inviteUserIds": "Invita altri utente/i",
+                "inviteUserIdsPlaceholder": "Seleziona utenti",
+                "inviteUserEmails": "Invita altri utente/i tramite email",
+                "inviteUserEmailsPlaceholder": "Inserisci email",
+                "dayVisitNumber": "Numero di visite al giorno",
+                "dayVisitNumberPlaceholder": "Inserisci numero di visite al giorno",
+                "weekDays": "Visita il",
+                "weekDaysPlaceholder": "Seleziona i giorni della settimana",
+                "weekDaysEnum": {
+                    "MONDAY": "Lunedì",
+                    "TUESDAY": "Martedì",
+                    "WEDNESDAY": "Mercoledì",
+                    "THURSDAY": "Giovedì",
+                    "FRIDAY": "Venerdì",
+                    "SATURDAY": "Sabato",
+                    "SUNDAY": "Domenica"
+                },
+                "mode": "Modalità",
+                "modePlaceholder": "Seleziona modalità",
+                "modeEnum": {
+                    "SINGLE": "Singola",
+                    "RECURRING": "Ricorsiva"
+                },
+                "startAddress": "Indirizzo di partenza",
+                "endDatetime": "Data di fine",
+                "endDatetimePlaceholder": "Inserisci data"
+            },
+            "deleteInEditModal": {
+                "title": "Eliminare la ricorrenza?",
+                "text": "Sei sicuro di voler eliminare questa ricorrenza? Se procedi, tutte le store visit successive verranno eliminate. Le store visit verranno eliminate solo se si salva  il form di modifica."
+            }
+        },
+        "documentManager": {
+            "title": "Gestione Documentazione",
+            "home": "Home",
+            "addFolder": "Aggiungi Cartella",
+            "folders": "Cartelle",
+            "files": "File",
+            "uploadFile": "Carica File",
+            "folderEmpty": "Non ci sono file in questa cartella",
+            "edit": "Modifica Documento",
+            "any": "Qualsiasi",
+            "columns": {
+                "name": "Nome",
+                "author": "Autore",
+                "date": "Data ultima modifica"
+            },
+            "fields": {
+                "name": "Nome",
+                "folderName": "Nome Cartella",
+                "folderNamePlaceholder": "Inserisci nome cartella",
+                "type": "Tipo",
+                "typePlaceholder": "Seleziona tipo",
+                "author": "Autore",
+                "authorPlaceholder": "Seleziona autore",
+                "date": "Data ultima modifica",
+                "datePlaceholder": "Inserisci data",
+                "tags": "Tags",
+                "tagsPlaceholder": "Seleziona tags",
+                "tagsIds": "Tags",
+                "tagsIdsPlaceholder": "Aggiungi tag",
+                "access": "Accesso",
+                "stores": "Nodi organigramma & stores",
+                "storesPlaceholder": "Seleziona nodi/stores",
+                "roles": "Ruoli",
+                "rolesPlaceholder": "Seleziona ruoli",
+                "permissionsEnum": {
+                    "PUBLIC": "Pubblico",
+                    "USERS": "Visibile solo a certi utenti",
+                    "GROUPS": "Visible solo a certi gruppi e utenti",
+                    "ROLES": "Visible solo a certi ruoli e utenti",
+                    "STORES": "Visible solo a certi nodi dell'organigramma / stores e utenti"
+                }
+            },
+            "notification": {
+                "createFolder": "Cartella creata con successo!",
+                "deleteFolder": "Cartella eliminata con successo!",
+                "uploadFile": "File {filename} caricato con successo!",
+                "errorUploadFile": "Errore durante il caricamento del file {filename}!",
+                "deleteFile": "File eliminato con successo!",
+                "editDocument": "Documento modificato con successo!",
+                "deleteDocument": "Documento eliminato con successo!",
+                "moveDocument": "Documento spostato con successo!",
+                "cloneDocument": "Documento clonato con successo!",
+                "shareDocument": "Documento condivisocon successo!",
+                "forbidden": "Non hai i permessi per visualizzare questo documento!"
+            },
+            "deleteDocumentModal": {
+                "title": "Eliminare il documento?",
+                "text": "Sei sicuro di voler eliminare questo documento? Se procedi, il file andrà perso definitivamente e non potrà essere recuperato."
+            }
+        },
+        "kpi": {
+            "title": "Key performance indicators"
+        },
+        "widgets": {
+            "tasks": "Tasks",
+            "expiredTasks": "Task Scadute",
+            "delayedTasks": "Task in Ritardo",
+            "tasksByPerson": "Task per Persona",
+            "completedTasks": "Task Completate",
+            "totalTasks": "Totale Task",
+            "assignedTasks": "Task Assegnate",
+            "tasksByStatus": "Task per Stato",
+            "tasksByStore": "Task per Store",
+            "kpiTotalSales": "Totale Vendite",
+            "notification": {
+                "edit": "Layout modificato con successo!",
+                "widgetsVisibility": "Visibilità dei widget modificata con successo!"
+            },
+            "fields": {
+                "date": "Data",
+                "datePlaceholder": "Inserisci una Data/Range",
+                "taskStatus": "Stato/i Task",
+                "taskStatusPlaceholder": "Seleziona uno stato",
+                "taskStore": "Store(s)",
+                "taskStorePlaceholder": "Seleziona uno o più store",
+                "users": "Utenti",
+                "usersPlaceholder": "Seleziona Utenti",
+                "nameEnum": {
+                    "tasks": {
+                        "TOTAL_TASKS": "Totale Task",
+                        "COMPLETED_TASKS": "Task Completate",
+                        "ASSIGNED_TASKS": "Task Assegnate",
+                        "EXPIRED_TASKS": "Task Scadute",
+                        "TOTAL_EXPIRED_TASKS": "Totale Task Scadute",
+                        "DELAYED_TASKS": "Task in Ritardo",
+                        "TASK_BY_STORE": "Task per Store",
+                        "TASK_BY_STATUS": "Task per Stato",
+                        "TASK_BY_PERSON": "Task per Persona",
+                        "TASKS_LIST": "Lista Task"
+                    },
+                    "storeVisits": {
+                        "TOTAL_STORE_VISIT_PERFORMED": "Totale store visit effettuate  ",
+                        "AVERAGE_SCORE": "Punteggio medio",
+                        "STORE_VISITS_PROGRESS": "Store visit in corso",
+                        "LAST_VISIT_SCORE": "Punteggio dell'ultima store visit",
+                        "TREND_OVER_TIME": "Andamento nel tempo",
+                        "STORE_VISIT_CALENDAR": "Calendario",
+                        "STORE_VISIT_MAP": "Mappa dei punti",
+                        "STORE_VISIT_STAGES": "Percorso store visit",
+                        "ONGOING_STORE_VISITS": "Store visit in corso",
+                        "LATEST_COMPLETED_STORE_VISITS": "Ultime store visit completata",
+                        "STORE_VISITS_HISTORY": "Storico delle store visit"
+                    }
+                }
+            }
+        },
+        "widgetsEnum": {
+            "TOTAL_TASKS": "Totale Task",
+            "COMPLETED_TASKS": "Task Completate",
+            "ASSIGNED_TASKS": "Task Assegnate",
+            "EXPIRED_TASKS": "Task Scadute",
+            "TOTAL_EXPIRED_TASKS": "Totale Task Scadute",
+            "DELAYED_TASKS": "Task in Ritardo",
+            "TASK_BY_STORE": "Task per Store",
+            "TASK_BY_STATUS": "Task per Stato",
+            "TASK_BY_PERSON": "Task per Persona",
+            "TASKS_LIST": "Lista Task",
+            "KPI_TOTAL_SALES": "Totale Vendite"
+        }
+    },
+    "passwords": {
+        "reset": "La tua password è stata reimpostata.",
+        "sent": "Abbiamo inviato il link per reimpostare la password via email.",
+        "throttled": "Si prega di attendere prima di riprovare.",
+        "token": "Questo token per reimpostare la password non è valido.",
+        "user": "Non riusciamo a trovare un utente con quell'indirizzo email."
+    }
+}

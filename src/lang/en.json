@@ -1,0 +1,1230 @@
+{
+    "menu": {
+        "dashboard": "Dashboard",
+        "users": "Users",
+        "settings": "Settings"
+    },
+    "global": {
+        "yes": "Yes",
+        "no": "No",
+        "add": "Add",
+        "cancel": "Cancel",
+        "exit": "Exit",
+        "actions": "Actions",
+        "confirm": "Confirm",
+        "createElement": "Element created successfully!",
+        "deleteElement": "Element deleted successfully!",
+        "edit": "Edit",
+        "emptyElement": "No elements",
+        "error": "Error",
+        "importantDetail": "Primary details",
+        "info": "Info",
+        "next": "Next",
+        "download": "Download",
+        "operationNotPermitted": "Operation not permitted!",
+        "previous": "Previous",
+        "save": "Save",
+        "saveAndNext": "Save and continue",
+        "search": "Search",
+        "searchResults": "Search results",
+        "serverError": "Ops, something went wrong!",
+        "updateElement": "Element updated successfully!",
+        "dashboard": "Dashboard",
+        "creation": "Creation",
+        "detail": "Detail",
+        "delete": "Delete",
+        "deleteFile": "Delete file",
+        "block": "Block",
+        "unblock": "Unblock",
+        "addNew": "Add new",
+        "noAttachments": "No attachments",
+        "emails": "Emails",
+        "phoneNumbers": "Phone numbers",
+        "select": "Select",
+        "remove": "Remove",
+        "enableEditing": "Enable editing",
+        "disableEditing": "Disable editing",
+        "users": "Users",
+        "addAnother": "Add another",
+        "filters": "Filters",
+        "reset": "Reset",
+        "unsavedChangesConfirm": "You have unsaved changes. Do you really want to leave?",
+        "upload": "Upload",
+        "subscription": "Subscription",
+        "modules": "Modules",
+        "additionalInformation": "Additional information",
+        "allRoles": "All roles",
+        "copyLink": "Copy link",
+        "settings": "Settings",
+        "duplicate": "Duplicate",
+        "editLayout": "Edit layout",
+        "pause": "Pause",
+        "play": "Play",
+        "widgetsVisibility": "Show/Hide widgets",
+        "move": "Move",
+        "score": "Score",
+        "setRecurrence": "Set recurrence",
+        "deleteRecurrence": "Delete recurrence",
+        "editRecurrence": "Edit recurrence",
+        "ordinalNumerals": {
+            "1": "first",
+            "2": "second",
+            "3": "third",
+            "4": "fourth",
+            "5": "fifth"
+        },
+        "schedule": "Schedule",
+        "manual": "Manual",
+        "automatic": "Automatic",
+        "preview": "Preview",
+        "refuse": "Refuse",
+        "eventScheduledPreview": "Event scheduled preview",
+        "rename": "Rename",
+        "clone": "Clone",
+        "done": "Done",
+        "share": "Share",
+        "close": "Close"
+    },
+    "pages": {
+        "404": {
+            "title": "404",
+            "subTitle": "Page not found",
+            "goBack": "Go back"
+        },
+        "auth": {
+            "login": {
+                "button": "Login",
+                "forgotPassword": "Forgot Password?",
+                "rememberMe": "Remember me",
+                "subTitle": "Login to continue",
+                "title": "It's nice to see you again!",
+                "registerAction": "Don’t have an account? Sign up!"
+
+            },
+            "register": {
+                "button": "Register",
+                "subTitle": "Register to continue",
+                "title": "Sign up your account",
+                "loginAction": "Already have an account? Log in"
+            }
+        },
+        "deleteModal": {
+            "text": "Attention, this action is irreversible!",
+            "title": "Are you sure?"
+        },
+        "settings": {
+            "general": {
+                "languageSubtitle": "Select the preferred language for your profile",
+                "languageTitle": "Language",
+                "timezoneTitle": "Timezone",
+                "timezoneSubtitle": "Set your profile timezone",
+                "subTitle": "Manage your account information",
+                "tabTitle": "General",
+                "title": "My account",
+                "passwordSettingsTitle": "Password settings",
+                "passwordSettingsSubtitle": "Reset your password or update your security settings to keep your account safe and secure",
+                "passwordReset": "Reset password",
+                "passwordResetSubtitle": "Forgon your password? No worries, you can easily reset it.",
+                "userWithoutEmail": "No email found, it is not possible to proceed with the reset. Contact your administrator",
+                "mailSent": "We have sent an email to your email address, please check your inbox and follow the instructions to reset your password."
+            },
+            "title": "Settings"
+        },
+        "companyProfile": {
+            "title": "Company profile",
+            "taskVisibilityNode": {
+                "title": "Visibility of tasks by number of nodes",
+                "subtitle": "Set visibility of tasks by number of nodes",
+                "toggleInput": "Complete visibility",
+                "taskNodeReports": "Nodes number"
+            }
+        },
+        "roles": {
+            "title": "Roles & permisssions"
+        },
+        "users": {
+            "title": "Users",
+            "titleSingular": "User",
+            "create": "User create",
+            "edit": "User edit",
+            "show": "User detail",
+            "fields": {
+                "email": "Email",
+                "mobile": "Mobile",
+                "emailPlaceholder": "Enter email",
+                "mobilePlaceholder": "Enter mobile phone",
+                "username": "Username",
+                "usernamePlaceholder": "Enter username",
+                "usernameHelper": "Username can contain only letters, numbers, and the following special characters: _ ,",
+                "languageId": "Language",
+                "languageIdPlaceholder": "Select language",
+                "languageIds": "Spoken languages",
+                "languageIdsPlaceholder": "Select spoken languages",
+                "name": "Name",
+                "namePlaceholder": "Enter name",
+                "password": "Password",
+                "passwordPlaceholder": "Enter password",
+                "passwordHelper": "The password must be at least 8 characters, contain at least one uppercase letter, one lowercase letter and at least one number.",
+                "passwordConfirmation": "Confirm password",
+                "passwordConfirmationPlaceholder": "Re-enter your password",
+                "roleIds": "Roles",
+                "roleIdsPlaceholder": "Select roles",
+                "surname": "Surname",
+                "surnamePlaceholder": "Enter surname",
+                "timezoneId": "Timezone",
+                "timezoneIdPlaceholder": "Select timezone",
+                "status": "Status",
+                "statusPlaceholder": "Enter status",
+                "statusEnum": {
+                    "ACTIVE": "Active",
+                    "BLOCKED": "Blocked"
+                },
+                "currentPassword": "Current password",
+                "newPassword": "New password",
+                "confirmPassword": "Confirm password",
+                "currentPasswordPlaceholder": "Insert current password",
+                "newPasswordPlaceholder": "Insert new password",
+                "confirmPasswordPlaceholder": "Confirm new password"
+            },
+            "deleteModal": {
+                "title": "Delete the user?",
+                "text": "Are you sure you want to delete this user? If you proceed, the user's information and their files will be kept in case you need to restore them later."
+            },
+            "removeRoleConfirmation": {
+                "title": "Role used in one or more nodes",
+                "text": "You have removed one or more roles used in some nodes. Are you sure you want to proceed with the changes? If you proceed, the user will be disassociated from the node."
+            },
+            "blockModal": {
+                "title": "Block the user?",
+                "text": "Are you sure you want to block this user? If you proceed, the user will no longer be able to access the platform."
+            },
+            "unblockModal": {
+                "title": "Unblock the user?",
+                "text": "Are you sure you want to unblock this user? If you proceed, the user will be able to access the platform again and resume their activities."
+            },
+            "notification": {
+                "create": "User created successfully!",
+                "edit": "User edited successfully!",
+                "delete": "User deleted successfully!",
+                "block": "User blocked successfully!",
+                "unblock": "User unblocked successfully!"
+            }
+        }
+    },
+    "types": {
+        "permissions": {
+            "title": "Permissions",
+            "titleSingular": "Permission",
+            "fields": {
+                "title": "Title",
+                "titleName": {
+                    "dashboard": {
+                        "dashboard_access": "Dashboard access",
+                        "title": "Dashboard"
+                    },
+                    "role": {
+                        "role_access": "View roles",
+                        "role_create": "Create role",
+                        "role_delete": "Delete role",
+                        "role_edit": "Edit role",
+                        "role_show": "Role detail",
+                        "title": "Roles"
+                    },
+                    "settings": {
+                        "settings_access": "Settings access",
+                        "title": "Settings"
+                    },
+                    "user": {
+                        "title": "Users",
+                        "user_access": "View users",
+                        "user_create": "Create user",
+                        "user_delete": "Delete user",
+                        "user_edit": "Edit user",
+                        "user_show": "User detail"
+                    }
+                }
+            }
+        },
+        "roles": {
+            "title": "Roles",
+            "titleSingular": "Role",
+            "fields": {
+                "defaultFg": "Default",
+                "title": "Title",
+                "titlePlaceholder": "Enter title",
+                "titleEnum": {
+                    "ADMIN": "Admin",
+                    "ADMIN_GENERAL": "Admin general",
+                    "HUMAN_RESOURCES": "Human resources",
+                    "RETAIL_MANAGER": "Retail manager",
+                    "TOP_MANAGER": "Top manager",
+                    "COUNTRY_MANAGER": "Country manager",
+                    "AREA_MANAGER": "Area manager",
+                    "STORE_MANAGER": "Store manager",
+                    "VICE_STORE_MANAGER": "Vice store manager",
+                    "SALES_ASSISTANT": "Sales assistant",
+                    "VISUAL_MERCHANDISER": "Visual merchandiser",
+                    "USER": "User"
+                }
+            }
+        },
+        "usersManagement": {
+            "title": "Users Management"
+        },
+
+        "userGroups": {
+            "title": "User groups",
+            "titleSingular": "User group",
+            "create": "User group create",
+            "edit": "User group edit",
+            "show": "User group detail",
+            "fields": {
+                "name": "Name",
+                "namePlaceholder": "Enter name",
+                "userIds": "Users",
+                "userIdsPlaceholder": "Select users"
+            },
+            "columns": {
+                "name": "Name",
+                "totalUsers": "Total Users",
+                "createdAt": "Created At"
+            },
+            "deleteModal": {
+                "title": "Delete the user group?",
+                "text": "Are you sure you want to delete this user group? If you proceed, the user group's information and their files will be kept in case you need to restore them later."
+            },
+            "notification": {
+                "create": "User group created successfully!",
+                "edit": "User group edited successfully!",
+                "delete": "User group deleted successfully!"
+            }
+        },
+        "customerUsers": {
+            "title": "Users",
+            "titleSingular": "User",
+            "add": "User add",
+            "create": "User create",
+            "edit": "User edit",
+            "show": "User detail",
+            "fields": {
+                "email": "Email",
+                "mobile": "Mobile",
+                "emailPlaceholder": "Enter email",
+                "mobilePlaceholder": "Enter mobile phone",
+                "username": "Username",
+                "usernamePlaceholder": "Enter username",
+                "usernameHelper": "Username can contain only letters, numbers, and the following special characters: _ ,",
+                "languageId": "Language",
+                "languageIdPlaceholder": "Select language",
+                "languageIds": "Spoken languages",
+                "languageIdsPlaceholder": "Select spoken languages",
+                "name": "Name",
+                "namePlaceholder": "Enter name",
+                "password": "Password",
+                "passwordPlaceholder": "Enter password",
+                "passwordHelper": "The password must be at least 8 characters, contain at least one uppercase letter, one lowercase letter and at least one number.",
+                "passwordConfirmation": "Confirm password",
+                "passwordConfirmationPlaceholder": "Re-enter your password",
+                "roleIds": "Roles",
+                "roleIdsPlaceholder": "Select roles",
+                "roleId": "Role",
+                "roleIdPlaceholder": "Select role",
+                "surname": "Surname",
+                "surnamePlaceholder": "Enter surname",
+                "timezoneId": "Timezone",
+                "timezoneIdPlaceholder": "Select timezone",
+                "customerId": "Customer",
+                "customerIdPlaceholder": "Select customer",
+                "status": "Status",
+                "statusPlaceholder": "Enter status",
+                "statusEnum": {
+                    "ACTIVE": "Active",
+                    "BLOCKED": "Blocked"
+                }
+            },
+            "actions": {
+                "add": "Add user"
+            },
+            "deleteModal": {
+                "title": "Delete the user?",
+                "text": "Are you sure you want to delete this user? If you proceed, the user's information and their files will be kept in case you need to restore them later."
+            },
+            "removeModal": {
+                "title": "Remove this User?",
+                "text": "Are you sure you want to delete this User? If you proceed, this user will be removed from the node."
+            },
+            "blockModal": {
+                "title": "Block the user?",
+                "text": "Are you sure you want to block this user? If you proceed, the user will no longer be able to access the platform."
+            },
+            "unblockModal": {
+                "title": "Unblock the user?",
+                "text": "Are you sure you want to unblock this user? If you proceed, the user will be able to access the platform again and resume their activities."
+            },
+            "notification": {
+                "add": "User added successfully!",
+                "create": "User created successfully!",
+                "edit": "User edited successfully!",
+                "delete": "User deleted successfully!",
+                "remove": "User removed successfully!",
+                "block": "User blocked successfully!",
+                "unblock": "User unblocked successfully!"
+            }
+        },
+        "customers": {
+            "title": "Customers",
+            "titleSingular": "Customer",
+            "create": "Customer create",
+            "edit": "Customer edit",
+            "show": "Customer detail",
+            "fields": {
+                "name": "Name",
+                "namePlaceholder": "Enter name",
+                "vatCode": "VAT code",
+                "vatCodePlaceholder": "Enter VAT code",
+                "address": {
+                    "primaryAddress": "Address",
+                    "primaryAddressPlaceholder": "Enter address",
+                    "zipCode": "Zip code",
+                    "zipCodePlaceholder": "Enter zip code",
+                    "latitudePlaceholder": "Enter latitude",
+                    "longitudePlaceholder": "Enter longitude",
+                    "province": "State / Region / Province",
+                    "provincePlaceholder": "Enter state / region / province",
+                    "city": "City",
+                    "cityPlaceholder": "Enter city",
+                    "countryId": "Country",
+                    "countryIdPlaceholder": "Select country",
+                    "latitude": "Latitude",
+                    "longitude": "Longitude"
+                },
+                "emails": {
+                    "email": "Email",
+                    "emailPlaceholder": "Enter email",
+                    "description": "Email description",
+                    "descriptionPlaceholder": "Enter email description"
+                },
+                "phoneNumbers": {
+                    "number": "Phone number",
+                    "numberPlaceholder": "Enter phone number",
+                    "description": "Phone number description",
+                    "descriptionPlaceholder": "Enter phone number description"
+                },
+                "description": "Description",
+                "descriptionPlaceholder": "Enter description",
+                "attachments": "Attachments",
+                "status": "Status",
+                "statusPlaceholder": "Enter status",
+                "statusEnum": {
+                    "ACTIVE": "Active",
+                    "BLOCKED": "Blocked"
+                },
+                "domain": "Domain",
+                "domainPlaceholder": "Enter domain",
+                "primaryColor": "Primary color",
+                "primaryColorPlaceholder": "Enter primary color",
+                "secondaryColor": "Secondary color",
+                "secondaryColorPlaceholder": "Enter secondary color",
+                "font": "Font",
+                "fontPlaceholder": "Enter font",
+                "logo": "Logo",
+                "logoSmall": "Logo small",
+                "learningUrl": "Learning URL",
+                "learningUrlPlaceholder": "Enter Learning URL",
+                "eventsUrl": "Events URL",
+                "eventsUrlPlaceholder": "Enter Events URL"
+            },
+            "titles": {
+                "general": "General",
+                "customization": "Customization",
+                "integrations": "Integrations",
+                "other": "Other"
+            },
+            "deleteModal": {
+                "title": "Delete the customer?",
+                "text": "Are you sure you want to delete this customer? If you proceed, the customer's information and their files will be kept in case you need to restore them later."
+            },
+            "blockModal": {
+                "title": "Block the customer?",
+                "text": "Are you sure you want to block this customer? If you proceed, the customer will no longer be able to access the platform."
+            },
+            "unblockModal": {
+                "title": "Unblock the customer?",
+                "text": "Are you sure you want to unblock this customer? If you proceed, the customer will be able to access the platform again and resume their activities."
+            },
+            "deleteMediaModal": {
+                "title": "Delete the file?",
+                "text": "Are you sure you want to delete this file? If you proceed, the file will be permanently lost and cannot be recovered."
+            },
+            "notification": {
+                "create": "Customer created successfully!",
+                "edit": "Customer edited successfully!",
+                "delete": "Customer deleted successfully!",
+                "block": "Customer blocked successfully!",
+                "unblock": "Customer unblocked successfully!",
+                "deleteFile": "File deleted successfully!"
+            }
+        },
+        "stores": {
+            "title": "Stores",
+            "titleSingular": "Store",
+            "add": "Store add",
+            "create": "Store create",
+            "edit": "Store edit",
+            "show": "Store detail",
+            "fields": {
+                "name": "Name",
+                "namePlaceholder": "Enter name",
+                "code": "Code",
+                "codePlaceholder": "Enter code",
+                "customerId": "Customer",
+                "customerIdPlaceholder": "Select customer",
+                "userId": "User",
+                "userIdPlaceholder": "Select user",
+                "roleId": "Role",
+                "roleIdPlaceholder": "Select role",
+                "address": {
+                    "primaryAddress": "Address",
+                    "primaryAddressPlaceholder": "Enter address",
+                    "zipCode": "Zip code",
+                    "zipCodePlaceholder": "Enter zip code",
+                    "province": "State / Region / Province",
+                    "provincePlaceholder": "Enter state / region / province",
+                    "city": "City",
+                    "cityPlaceholder": "Enter city",
+                    "countryId": "Country",
+                    "countryIdPlaceholder": "Select country",
+                    "latitude": "Latitude",
+                    "longitude": "Longitude"
+                },
+                "emails": {
+                    "email": "Email",
+                    "emailPlaceholder": "Enter email",
+                    "description": "Email description",
+                    "descriptionPlaceholder": "Enter email description"
+                },
+                "phoneNumbers": {
+                    "number": "Phone number",
+                    "numberPlaceholder": "Enter phone number",
+                    "description": "Phone number description",
+                    "descriptionPlaceholder": "Enter phone number description"
+                },
+                "description": "Description",
+                "descriptionPlaceholder": "Enter description",
+                "attachments": "Attachments"
+            },
+            "actions": {
+                "add": "Add store"
+            },
+            "deleteModal": {
+                "title": "Delete the store?",
+                "text": "Are you sure you want to delete this store? If you proceed, the store's information and their files will be kept in case you need to restore them later."
+            },
+            "deleteMediaModal": {
+                "title": "Delete the file?",
+                "text": "Are you sure you want to delete this file? If you proceed, the file will be permanently lost and cannot be recovered."
+            },
+            "deleteUserModal": {
+                "title": "Remove the file?",
+                "text": "Are you sure you want to remove this user? If you proceed, this user will be removed from the store."
+            },
+            "removeModal": {
+                "title": "Remove this store?",
+                "text": "Are you sure you want to delete this store? If you proceed, this store will be removed from the node."
+            },
+            "notification": {
+                "add": "Store added successfully!",
+                "create": "Store created successfully!",
+                "edit": "Store edited successfully!",
+                "remove": "Store removed successfully!",
+                "delete": "Store deleted successfully!",
+                "deleteFile": "File deleted successfully!",
+                "removeUser": "User removed successfully!"
+            }
+        },
+        "clusters": {
+            "title": "Clusters",
+            "titleSingular": "Cluster",
+            "create": "Cluster create",
+            "edit": "Cluster edit",
+            "show": "Cluster detail",
+            "fields": {
+                "name": "Name",
+                "namePlaceholder": "Enter name",
+                "customerId": "Customer",
+                "customerIdPlaceholder": "Select customer",
+                "storeIds": "Stores",
+                "storeIdsPlaceholder": "Select stores"
+            },
+            "deleteModal": {
+                "title": "Delete the cluster?",
+                "text": "Are you sure you want to delete this cluster? If you proceed, the cluster's information and their files will be kept in case you need to restore them later."
+            },
+            "notification": {
+                "create": "Cluster created successfully!",
+                "edit": "Cluster edited successfully!",
+                "delete": "Cluster deleted successfully!"
+            }
+        },
+        "svisTemplates": {
+            "title": "Templates",
+            "titleSingular": "Template",
+            "create": "New Template",
+            "empty": "No template availables",
+            "info": "Template info",
+            "wizard": {
+                "general": "General",
+                "questions": "Questions",
+                "supportMaterial": "Support material",
+                "publish": "Publish",
+                "create": {
+                    "title": "Create Template",
+                    "saveDraft": "Save as a draft",
+                    "updateDraft": "Update draft"
+                },
+                "edit": {
+                    "title": "Edit Template"
+                },
+                "show": {
+                    "title": "Template"
+                }
+            },
+            "fields": {
+                "title": "Title",
+                "validity": "Validity",
+                "image": "Image",
+                "validityPlaceholder": "mm/dd/YY",
+                "weather": "Weather condition",
+                "languageId": "Language",
+                "languageIdPlaceholder": "Spoken language",
+                "validFromTs": "Valid from",
+                "validFromTsPlaceholder": "Valid from",
+                "validToTs": "Valid to",
+                "validToTsPlaceholder": "Valid to",
+                "assignationType": "Assignee",
+                "assignationTypePlaceholder": "Select type",
+                "status": "Status",
+                "tags": "Tags",
+                "statusPlaceholder": "Select status",
+                "titlePlaceholder": "Enter title",
+                "attachments": "Attachments",
+                "attachmentsPlaceholder": "Drag and Drop file or folder here or Choose file",
+                "instructions": "Instructions",
+                "instructionsPlaceholder": "Insert instructions",
+                "description": "Description",
+                "descriptionPlaceholder": "Enter description",
+                "clusters": "Clusters",
+                "clustersPlaceholder": "Select Clusters",
+                "users": "Users",
+                "usersPlaceholder": "Select users",
+                "enabledRoles": "Enabled roles",
+                "enabledRolesPlaceholder": "All roles",
+                "statusEnum": {
+                    "PUBLISHED": "Published",
+                    "DRAFT": "Draft",
+                    "EXPIRED": "Expired"
+                },
+                "assignationTypeEnum": {
+                    "FREE": "Free",
+                    "CLUSTER": "Cluster",
+                    "USERS": "Users"
+                }
+            },
+            "questionCategories": {
+                "add": "Add category",
+                "categoriesWeight": "Categories weight",
+                "empty": "There are currently no questions in this category. <br>To begin, please add a category.",
+                "fields": {
+                    "title": "Title",
+                    "titlePlaceholder": "Enter category name",
+                    "weight": "Weight",
+                    "weightPlaceholder": "Enter weight"
+                }
+            },
+            "questions": {
+                "add": "Add questions",
+                "empty": "There are currently no questions in this template. <br>To begin, please add a question.",
+                "addOptions": "Add options",
+                "noWeight": "The selected question type has no weight",
+                "deleteModal": {
+                    "title": "Delete this question?",
+                    "text": "Are you sure you want to delete this question? If you proceed, all of its children will also be deleted."
+                },
+                "fields": {
+                    "text": "Question",
+                    "textPlaceholder": "Enter question here",
+                    "weightPlaceholder": "Enter the weight",
+                    "type": "Answer type",
+                    "weight": "Weight",
+                    "required": "Required",
+                    "commentRequired": "Comment",
+                    "photoRequired": "Photo required",
+                    "attachments": "Attachments",
+                    "questionTypeEnum": {
+                        "OPEN": "Open",
+                        "RATING": "Rating (1 - 10)",
+                        "YESNO": "Yes/No",
+                        "SELECT_SINGLE": "Select single",
+                        "SELECT_MULTIPLE": "Select multiple",
+                        "PHOTO": "Photo"
+                    },
+                    "options": {
+                        "text": "Option",
+                        "weight": "Weight"
+                    }
+                }
+            },
+            "deleteModal": {
+                "title": "Delete this template?",
+                "text": "Are you sure you want to delete this template? If you proceed, all of its children will also be deleted."
+            },
+            "duplicateModal": {
+                "title": "Duplicate this template?",
+                "text": "Are you sure you want to duplicate this template? If you proceed, all of its children will also be duplicated."
+            },
+            "notification": {
+                "create": "Template created successfully!",
+                "edit": "Template edited successfully!",
+                "delete": "Template deleted successfully!",
+                "duplicate": "Template duplicated successfully!"
+            }
+        },
+        "weathers": {
+            "fields": {
+                "sunny": "Sunny",
+                "partly_cloudy": "Partly Cloudy",
+                "cloudy": "Cloudy",
+                "rain": "Rain",
+                "storm": "Storm",
+                "fog": "Fog",
+                "snow": "Snow",
+                "wind": "Wind"
+            }
+        },
+        "languages": {
+            "title": "Languages",
+            "titleSingular": "Language",
+            "fields": {
+                "nameEnum": {
+                    "afrikaans": "Afrikaans",
+                    "albanian": "Albanian",
+                    "amharic": "Amharic",
+                    "arabic": "Arabic",
+                    "armenian": "Armenian",
+                    "basque": "Basque",
+                    "bengali": "Bengali",
+                    "belarusian": "Belarusian",
+                    "burmese": "Burmese",
+                    "bulgarian": "Bulgarian",
+                    "catalan": "Catalan",
+                    "czech": "Czech",
+                    "chinese": "Chinese",
+                    "croatian": "Croatian",
+                    "kurdish": "Kurdish",
+                    "danish": "Danish",
+                    "dari": "Dari",
+                    "dzongkha": "Dzongkha",
+                    "hebrew": "Hebrew",
+                    "esperanto": "Esperanto",
+                    "estonian": "Estonian",
+                    "faroese": "Faroese",
+                    "persian": "Persian",
+                    "finnish": "Finnish",
+                    "french": "French",
+                    "gaelic": "Gaelic",
+                    "galician": "Galician",
+                    "welsh": "Welsh",
+                    "japanese": "Japanese",
+                    "greek": "Greek",
+                    "hindi": "Hindi",
+                    "indonesian": "Indonesian",
+                    "english": "English",
+                    "inuit": "Inuit",
+                    "icelandic": "Icelandic",
+                    "italian": "Italian",
+                    "khmer": "Khmer",
+                    "korean": "Korean",
+                    "lao": "Lao",
+                    "sami": "Sami",
+                    "latvian": "Latvian",
+                    "lithuanian": "Lithuanian",
+                    "macedonian": "Macedonian",
+                    "malay": "Malay",
+                    "maltese": "Maltese",
+                    "nepali": "Nepali",
+                    "norwegian": "Norwegian",
+                    "dutch": "Dutch",
+                    "pashto": "Pashto",
+                    "polish": "Polish",
+                    "portuguese": "Portuguese",
+                    "romanian": "Romanian",
+                    "russian": "Russian",
+                    "serbian": "Serbian",
+                    "slovak": "Slovak",
+                    "slovenian": "Slovenian",
+                    "somali": "Somali",
+                    "spanish": "Spanish",
+                    "swedish": "Swedish",
+                    "swahili": "Swahili",
+                    "tagalog_filipino": "Tagalog-Filipino",
+                    "tajik": "Tajik",
+                    "tamil": "Tamil",
+                    "german": "German",
+                    "thai": "Thai",
+                    "tibetan": "Tibetan",
+                    "tigrinya": "Tigrinya",
+                    "tongan": "Tongan",
+                    "turkish": "Turkish",
+                    "turkmen": "Turkmen",
+                    "ukrainian": "Ukrainian",
+                    "hungarian": "Hungarian",
+                    "urdu": "Urdu",
+                    "uzbek": "Uzbek",
+                    "vietnamese": "Vietnamese"
+                }
+            }
+        },
+        "organizationCharts": {
+            "title": "Organization chart",
+            "titleSingular": "Organization chart"
+        },
+        "orgNodes": {
+            "title": "Nodes",
+            "titleSingular": "Node",
+            "create": "Node create",
+            "edit": "Node edit",
+            "fields": {
+                "name": "Name",
+                "namePlaceholder": "Enter name",
+                "storeId": "Store",
+                "storeIdPlaceholder": "Select store",
+                "storeIdHelper": "Only stores not associated with any organizational chart node are displayed.",
+                "userId": "User",
+                "userIdPlaceholder": "Select user",
+                "roleId": "Role",
+                "roleIdPlaceholder": "Select role"
+            },
+            "actions": {
+                "add": "Add node",
+                "edit": "Edit node"
+            },
+            "deleteModal": {
+                "title": "Delete this node?",
+                "text": "Are you sure you want to delete this node? If you proceed, all of its children will also be deleted."
+            },
+            "notification": {
+                "create": "Node created successfully!",
+                "edit": "Node edited successfully!",
+                "delete": "Node deleted successfully!"
+            }
+        },
+        "addresses": {
+            "title": "Addresses",
+            "titleSingular": "Address",
+            "fields": {
+                "addressSearch": "Search address",
+                "addressSearchPlaceholder": "Enter address",
+                "addressSearchHelper": "Enter the complete address with street, city, postal code and country for an accurate result",
+                "countryId": "Country",
+                "countryIdPlaceholder": "Select country",
+                "province": "State / Region / Province",
+                "provincePlaceholder": "Enter state / region / province",
+                "city": "City",
+                "cityPlaceholder": "Enter city",
+                "zipCode": "Zip code",
+                "zipCodePlaceholder": "Enter zip code",
+                "latitude": "Latitude",
+                "latitudePlaceholder": "Enter latitude",
+                "longitude": "Longitude",
+                "longitudePlaceholder": "Enter longitude",
+                "primaryAddress": "Address",
+                "primaryAddressPlaceholder": "Enter address"
+            }
+        },
+        "dashboard": {
+            "date": "Data",
+            "area": "Area",
+            "stores": "Stores",
+            "currency": "Currency",
+            "totalSales": "Total sales",
+            "target": "Target",
+            "questaSettimana": "this week",
+            "tassoConversione": "Conversion rate",
+            "transazioneMedia": "Average transaction",
+            "unitaPerTransazione": "Unit per transaction",
+            "quantita": "Quantity:",
+            "giorniLavorati": "Working days:",
+            "mediaVenditeGiornaliere": "Average daily sales:",
+            "venditeDigitali": "Digital sales:",
+            "numeroTicket": "Nr. tickets:",
+            "esenteTasse": "Tax free:",
+            "tassoDiAdesione": "Opt-in rate",
+            "iscrizioni": "Subscription",
+            "tassoIscrizioni": "Subscription rate",
+            "soloPerNegozio": "only for store",
+            "soloPerStaff": "only for staff",
+            "venditeTotaliAnnoCorrente": "Total sales current year",
+            "venditeTotaliAnnoPrecedente": "Total sales last year",
+            "venditeAnnoCorrenteVsAnnoPrecedente": "Total sales current year vs last year",
+            "venditeMesiRecenti": "Recent month sales",
+            "targetSales": "Target Sales"
+        },
+        "tags": {
+            "title": "Tags",
+            "missing": "No boards",
+            "edit": "Edit Board",
+            "addColumn": "Add Column",
+            "noStatus": "No status",
+            "notification": {
+                "create": "Board created successfully!",
+                "edit": "Board edited successfully!",
+                "delete": "Board deleted successfully!"
+            },
+            "fields": {
+                "columnTitle": "Column Title",
+                "columnStatus": "Column Status",
+                "columnStatusPlaceholder": "Select Column Status",
+                "columnEnum": {
+                    "COMPLETED": "Completed",
+                    "PROGRESS": "Progress",
+                    "TODO": "Todo"
+                }
+            }
+        },
+        "customerSettings": {
+            "title": "Company settings",
+            "titleSingular": "Company setting",
+            "fields": {
+                "taskNodeReports": "Node number"
+            },
+            "notification": {
+                "edit": "Company setting edited successfully!"
+            }
+        },
+        "storeVisits": {
+            "title": "Store visits",
+            "titleEnded": "Store visits completed",
+            "executionDetails": "Store visit execution details",
+            "titleSingular": "Store visit",
+            "manualCreate": "Manual scheduling",
+            "automaticCreate": "Automatic scheduling",
+            "edit": "Store visit edit",
+            "show": "Store visit detail",
+            "start": "Start visit",
+            "resume": "Resume visit",
+            "end": "End store visit",
+            "endConfirm": "Please confirm if you would like to end your current store visit.",
+            "exp": "Exp.",
+            "score": "Score",
+            "svisScore": "Store visit score",
+            "category": "Category",
+            "selectTemplate": "Select template",
+            "pausedTimerBanner": "You can't asnwer the questions while the timer is paused, start the timer to continue.",
+            "fields": {
+                "commentRequired": "Comment",
+                "executionTime": "Execution time",
+                "photoRequired": "Photo required",
+                "startDatetime": "Start datetime",
+                "endDatetime": "End datetime",
+                "startDatetimePlaceholder": "Enter datetime",
+                "duration": "Duration",
+                "durationPlaceholder": "Enter duration",
+                "storeId": "Store",
+                "storeIdPlaceholder": "Select store",
+                "userId": "User",
+                "userIdPlaceholder": "Select user",
+                "createdUserId": "Created by user",
+                "inviteUserIds": "Invite other user(s)",
+                "inviteUserIdsPlaceholder": "Select users",
+                "invitedUserIds": "Invited user(s)",
+                "inviteUserEmails": "Invite other user(s) by email",
+                "inviteUserEmailsPlaceholder": "Enter emails",
+                "invitedUserEmails": "Invited user(s) by email",
+                "recurrenceName": "Recurrence",
+                "recurrence": {
+                    "type": "Recurrence type",
+                    "typePlaceholder": "Select recurrence type",
+                    "typeEnum": {
+                        "WEEKLY": "Weekly",
+                        "MONTHLY": "Monthly"
+                    },
+                    "deleteTypeEnum": {
+                        "SINGLE": "Delete only this store visit",
+                        "NEXT": "Delete only this store visit and subsequent ones"
+                    },
+                    "recurrenceInterval": "Repeat interval",
+                    "recurrenceIntervalPlaceholder": "Enter repeat interval",
+                    "repeatType": "Repeat type",
+                    "repeatTypePlaceholder": "Select repeat type",
+                    "weekDays": "Repeat on",
+                    "weekDaysPlaceholder": "Select repeat week days",
+                    "weekDaysEnum": {
+                        "MONDAY": "Monday",
+                        "TUESDAY": "Tuesday",
+                        "WEDNESDAY": "Wednesday",
+                        "THURSDAY": "Thursday",
+                        "FRIDAY": "Friday",
+                        "SATURDAY": "Saturday",
+                        "SUNDAY": "Sunday"
+                    },
+                    "ends": "Ends",
+                    "endDatetime": "After date",
+                    "endDatetimePlaceholder": "Enter date",
+                    "endOccurrencesNumber": "After occurrence number",
+                    "endOccurrencesNumberPlaceholder": "Enter occurrence number"
+                }
+            },
+            "widgets": {
+                "totalStoreVisitsPerformed": "Total store visits performed",
+                "averageScore": "Average score",
+                "storeVisitsProgress": "Store visits in progress",
+                "lastVisitScore": "Last visit score",
+                "trendOverTime": "Trend over time",
+                "stages": "Stages",
+                "ongoingStoreVisits": "Ongoing store visits",
+                "historyStoreVisits": "Store visits history",
+                "latestCompletedStoreVisits": "Latest completed store visits",
+                "todayStoreVisits": "Today's store visits"
+            },
+            "deleteModal": {
+                "title": "Delete the store visit?",
+                "text": "Are you sure you want to delete this store visit? If you proceed, the store's information and their files will be kept in case you need to restore them later."
+            },
+            "deleteWithRecurrenceModal": {
+                "title": "Delete the store visit?",
+                "text": "Are you sure you want to delete this store visit? If you proceed, your store information will be deleted. This store belongs to a recurrence, select the type of deletion:"
+            },
+            "notification": {
+                "create": "Store visit created successfully!",
+                "edit": "Store visit edited successfully!",
+                "delete": "Store visit deleted successfully!",
+                "end": "Store visit ends successsfully!",
+                "validationFail": "Please check that you have filled in the responses correctly!"
+            },
+            "report": {
+                "downloadPdf": "Download PDF report",
+                "generateReport": "Generate report"
+            }
+        },
+        "widgets": {
+            "notification": {
+                "edit": "Layout edited successfully!",
+                "widgetsVisibility": "Widgets visibility updated successfully!"
+            },
+            "fields": {
+                "nameEnum": {
+                    "tasks": {
+                        "TOTAL_TASKS": "Total Tasks",
+                        "COMPLETED_TASKS": "Completed Tasks",
+                        "ASSIGNED_TASKS": "Assigned Tasks",
+                        "EXPIRED_TASKS": "Expired Tasks",
+                        "TOTAL_EXPIRED_TASKS": "Total Expired Tasks",
+                        "DELAYED_TASKS": "Delayed Tasks",
+                        "TASK_BY_STORE": "Task by Store",
+                        "TASK_BY_STATUS": "Task by Status",
+                        "TASK_BY_PERSON": "Task by Person",
+                        "TASKS_LIST": "Tasks"
+                    },
+                    "storeVisits": {
+                        "TOTAL_STORE_VISIT_PERFORMED": "Total store visits performed",
+                        "AVERAGE_SCORE": "Average score",
+                        "STORE_VISITS_PROGRESS": "Store visits in progress ",
+                        "LAST_VISIT_SCORE": "Last visit score",
+                        "TREND_OVER_TIME": "Trend over time",
+                        "STORE_VISIT_CALENDAR": "Calendar",
+                        "STORE_VISIT_MAP": "Point map",
+                        "STORE_VISIT_STAGES": "Stages",
+                        "ONGOING_STORE_VISITS": "Ongoing store visits",
+                        "LATEST_COMPLETED_STORE_VISITS": "Latest completed store visits",
+                        "STORE_VISITS_HISTORY": "Store visits history",
+                        "STORE_VISITS_TODAY": "Today's store visits"
+                    }
+                }
+            }
+        },
+        "recurrences": {
+            "title": "Recurrences",
+            "titleSingular": "Recurrence",
+            "fields": {
+                "storeIds": "Stores",
+                "storeIdsPlaceholder": "All stores",
+                "userId": "User",
+                "userIdPlaceholder": "Select user",
+                "startDatetime": "Start date",
+                "startDatetimePlaceholder": "Enter start date",
+                "duration": "Duration",
+                "durationPlaceholder": "Enter duration",
+                "inviteUserIds": "Invite other user(s)",
+                "inviteUserIdsPlaceholder": "Select users",
+                "inviteUserEmails": "Invite other user(s) by email",
+                "inviteUserEmailsPlaceholder": "Enter emails",
+                "dayVisitNumber": "Number of visits in a day",
+                "dayVisitNumberPlaceholder": "Enter number of visits in a day",
+                "weekDays": "Visit on",
+                "weekDaysPlaceholder": "Select visit week days",
+                "weekDaysEnum": {
+                    "MONDAY": "Monday",
+                    "TUESDAY": "Tuesday",
+                    "WEDNESDAY": "Wednesday",
+                    "THURSDAY": "Thursday",
+                    "FRIDAY": "Friday",
+                    "SATURDAY": "Saturday",
+                    "SUNDAY": "Sunday"
+                },
+                "startAddress": "Start address",
+                "mode": "Mode",
+                "modePlaceholder": "Select mode",
+                "modeEnum": {
+                    "SINGLE": "Single",
+                    "RECURRING": "Recurring"
+                },
+                "endDatetime": "End date",
+                "endDatetimePlaceholder": "Enter end date"
+            },
+            "deleteInEditModal": {
+                "title": "Delete the recurrence?",
+                "text": "Are you sure you want to delete this recurrence? If you proceed, all store visits after these will be deleted. Store visits will only be deleted if you save the edit form."
+            }
+        },
+        "documentManager": {
+            "title": "Document Management",
+            "home": "Home",
+            "addFolder": "Add Folder",
+            "folders": "Folders",
+            "files": "Files",
+            "uploadFile": "Upload File",
+            "folderEmpty": "There are no files in this folder",
+            "edit": "Edit Document",
+            "any": "Any",
+            "columns": {
+                "name": "Name",
+                "author": "Author",
+                "date": "Last edit date"
+            },
+            "fields": {
+                "name": "Name",
+                "folderName": "Folder name",
+                "folderNamePlaceholder": "Enter folder name",
+                "type": "Type",
+                "typePlaceholder": "Select type",
+                "author": "Author",
+                "authorPlaceholder": "Select author",
+                "date": "Last edit date",
+                "datePlaceholder": "Select date",
+                "tags": "Tags",
+                "tagsPlaceholder": "Select tags",
+                "tagsIds": "Tags",
+                "tagsIdsPlaceholder": "Add tag",
+                "access": "Access",
+                "groups": "Groups",
+                "groupsPlaceholder": "Select groups",
+                "users": "Users",
+                "usersPlaceholder": "Select users",
+                "stores": "Organization nodes & stores",
+                "storesPlaceholder": "Select organization nodes/stores",
+                "roles": "Roles",
+                "rolesPlaceholder": "Select roles",
+                "permissionsEnum": {
+                    "PUBLIC": "Public",
+                    "USERS": "Visible only to certain users",
+                    "GROUPS": "Visible to groups and users",
+                    "ROLES": "Visible to roles and users",
+                    "STORES": "Visible to organization nodes/stores and users"
+                }
+            },
+            "notification": {
+                "createFolder": "Folder created successfully!",
+                "deleteFolder": "Folder deleted successfully!",
+                "uploadFile": "File {filename} uploaded successfully!",
+                "errorUploadFile": "Error uploading file {filename}!",
+                "deleteFile": "File deleted successfully!",
+                "editDocument": "Document edited successfully!",
+                "deleteDocument": "Document deleted successfully!",
+                "moveDocument": "Document moved successfully!",
+                "cloneDocument": "Document cloned successfully!",
+                "shareDocument": "Document sharedsuccessfully!",
+                "forbidden": "You do not have permission to access this document!"
+            },
+            "deleteDocumentModal": {
+                "title": "Delete the document?",
+                "text": "Are you sure you want to delete this document? If you proceed, the document will be permanently lost and cannot be recovered."
+            }
+        },
+        "kpi": {
+            "title": "Key performance indicators"
+        },
+        "widgets": {
+            "tasks": "Tasks",
+            "expiredTasks": "Expired Tasks",
+            "delayedTasks": "Delayed Tasks",
+            "tasksByPerson": "Tasks by Person",
+            "completedTasks": "Completed Tasks",
+            "totalTasks": "Total Tasks",
+            "assignedTasks": "Assigned Tasks",
+            "tasksByStatus": "Task by Status",
+            "tasksByStore": "Task by Store",
+            "kpiTotalSales": "Totale Vendite",
+            "notification": {
+                "edit": "Layout edited successfully!",
+                "widgetsVisibility": "Widgets visibility updated successfully!"
+            },
+            "fields": {
+                "date": "Date",
+                "datePlaceholder": "Enter Date/Range",
+                "taskStatus": "Task Status(es)",
+                "taskStatusPlaceholder": "Select Task Status",
+                "taskStore": "Store(s)",
+                "taskStorePlaceholder": "Select Store(s)",
+                "users": "User(s)",
+                "usersPlaceholder": "Select User(s)",
+                "nameEnum": {
+                    "tasks": {
+                        "TOTAL_TASKS": "Total Tasks",
+                        "COMPLETED_TASKS": "Completed Tasks",
+                        "ASSIGNED_TASKS": "Assigned Tasks",
+                        "EXPIRED_TASKS": "Expired Tasks",
+                        "TOTAL_EXPIRED_TASKS": "Total Expired Tasks",
+                        "DELAYED_TASKS": "Delayed Tasks",
+                        "TASK_BY_STORE": "Task by Store",
+                        "TASK_BY_STATUS": "Task by Status",
+                        "TASK_BY_PERSON": "Task by Person",
+                        "TASKS_LIST": "Tasks"
+                    },
+                    "storeVisits": {
+                        "TOTAL_STORE_VISIT_PERFORMED": "Total store visits performed",
+                        "AVERAGE_SCORE": "Average score",
+                        "STORE_VISITS_PROGRESS": "Store visits in progress ",
+                        "LAST_VISIT_SCORE": "Last visit score",
+                        "TREND_OVER_TIME": "Trend over time",
+                        "STORE_VISIT_CALENDAR": "Calendar",
+                        "STORE_VISIT_MAP": "Point map",
+                        "STORE_VISIT_STAGES": "Stages",
+                        "ONGOING_STORE_VISITS": "Ongoing store visits",
+                        "LATEST_COMPLETED_STORE_VISITS": "Latest completed store visits",
+                        "STORE_VISITS_HISTORY": "Store visits history"
+                    }
+                }
+            }
+        },
+        "widgetsEnum": {
+            "TOTAL_TASKS": "Total Tasks",
+            "COMPLETED_TASKS": "Completed Tasks",
+            "ASSIGNED_TASKS": "Assigned Tasks",
+            "EXPIRED_TASKS": "Expired Tasks",
+            "TOTAL_EXPIRED_TASKS": "Total Expired Tasks",
+            "DELAYED_TASKS": "Delayed Tasks",
+            "TASK_BY_STORE": "Task by Store",
+            "TASK_BY_STATUS": "Task by Status",
+            "TASK_BY_PERSON": "Task by Person",
+            "TASKS_LIST": "Tasks",
+            "KPI_TOTAL_SALES": "Totale Vendite"
+        }
+    },
+    "passwords": {
+        "reset": "Your password has been reset.",
+        "sent": "We have emailed your password reset link.",
+        "throttled": "Please wait before retrying.",
+        "token": "This password reset token is invalid.",
+        "user": "We can't find a user with that email address."
+    }
+}

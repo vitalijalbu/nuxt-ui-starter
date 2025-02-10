@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "target": "ESNext",
+        "types": ["vite/client", "@base/assistant/vue"],
+        "module": "esnext",
+        "strict": true,
+        "jsx": "preserve",
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "importHelpers": true,
+        "emitDecoratorMetadata": true,
+        "noImplicitAny": false,
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "useDefineForClassFields": true,
+        "sourceMap": true,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["src/*"],
+            "@public/*": ["public/*"],
+            "@layouts/*": ["src/views/layouts/*"],
+            "@pages/*": ["src/views/pages/*"],
+            "@base-components/*": ["src/components/base/*"],
+            "@slot-components/*": ["src/components/slots/*"]
+        },
+        "lib": ["esnext", "dom", "dom.iterable", "scripthost", "WebWorker"],
+    },
+    "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "*.ts", "*.tsx"],
+    "exclude": ["node_modules"],
+}
